@@ -1,18 +1,41 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
+import { Grid, Row, Col } from 'react-bootstrap';
+
 import DeVry from '../Images/Sponsors/devry.png';
 import Google from '../Images/Sponsors/google.png';
 import Heroku from '../Images/Sponsors/heroku.png';
 import Asi from '../Images/Sponsors/asi.png';
-export default class Sponsors extends Component{
+import CECS from '../Images/Sponsors/cecs.png';
 
-    render(){
-        return(
+export default class Sponsors extends Component {
+
+    render() {
+        return (
             <div>
-                <img src={Google} alt="google"/>
-                <img src={DeVry} alt ="devry university"/>
-                <img src={Heroku} alt = "heroku"/>
-                <img src={Asi} alt = " CSULB asi"/>
-            </div>
+                <Grid>
+                    <Row>
+                        <Col xs={12} md={12}>
+                            <img className="sponsor" src={Google} alt="google" />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={12} md={6}>
+                            <img className="sponsor" src={Heroku} alt="heroku" />
+                        </Col>
+                        <Col xs={12} md={6}>
+                            <img className="sponsor" src={DeVry} alt="devry university" />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={12} md={6}>
+                            <img className="sponsor-wide" src={Asi} alt="  asi" />
+                        </Col>
+                        <Col xs={12} md={6}>
+                            <img className="sponsor-wide" src={CECS} alt="CECS" />
+                        </Col>
+                    </Row>
+                </Grid>
+            </div >
         )
     }
 }
