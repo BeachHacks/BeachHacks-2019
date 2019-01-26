@@ -7,6 +7,10 @@
   height: 40vmin;
 }
 
+.beachhacks-logo{
+  height:40vmin; 
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -29,4 +33,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.apply-button{
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: transparent;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: .25rem 2.5rem;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  cursor: pointer;
+  color: #fff;
+  border: .4rem solid #fff;
+  transition: .25s ease-in-out;
+  margin-top: 2rem;
 }
