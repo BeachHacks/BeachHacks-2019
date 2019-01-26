@@ -4,12 +4,11 @@ import Home from './Home';
 import Register from './Register';
 
 
-
+// Route to the website, if our url = beachhacks.com, that routePath
 const routePath = process.env.PUBLIC_URL;
 
 export default class Router extends Component {
     
-    // 
    
     render(){
         return(
