@@ -95,6 +95,7 @@
     padding: 20px 20px 14px 20px;
     cursor: pointer;
     border-radius:2rem;
+    font-family:"futura-pt-bold"
     }
   #faq .header:after {
     color: #2475b9;
