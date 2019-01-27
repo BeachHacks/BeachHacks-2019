@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {Grid, Row, Col} from 'react-bootstrap';
+import { Grid, Row, Col } from 'react-bootstrap';
+import DropButton from './DropButton';
 
 export default class FAQ extends Component {
 
@@ -10,9 +11,8 @@ export default class FAQ extends Component {
                 <Grid>
                     <Row>
                         <Col xs={12} md={6}>
-                            <h2>When is it?</h2>
-                            <p>BeachHacks is 24 hours long starting on April 13, 2019 and ending on April 14, 2019.
-                                A more detailed schedule will be released closer to the event.</p>
+                            <DropButton header="When is it?" body="BeachHacks is 24 hours long starting on April 13, 2019 and ending on April 14, 2019.
+                                A more detailed schedule will be released closer to the event."/>
                         </Col>
                         <Col xs={12} md={6}>
                             <h2>Where is it?</h2>

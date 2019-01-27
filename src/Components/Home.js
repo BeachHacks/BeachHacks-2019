@@ -11,9 +11,6 @@ export default class Home extends Component {
       <div>
         <Navigation />
         <Header />
-        <section id="faq">
-          <DropButton header="When is it?" body="BeachHacks is 24 hours long starting on April 13, 2019 and ending on April 14, 2019. A more detailed schedule will be released closer to the event." />
-        </section>
         <FAQ />
         <Sponsors />
       </div>
