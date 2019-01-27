@@ -11,7 +11,7 @@ export default class Sponsors extends Component {
 
     render() {
         return (
-            <div>
+            <div id ='sponsors'>
                 <Grid>
                     <Row>
                         <Col xs={12} md={12}>
