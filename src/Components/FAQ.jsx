@@ -7,7 +7,7 @@ export default class FAQ extends Component {
     render() {
         return (
             <div id="faq">
-                <h1>FAQ</h1>
+                <h1 className="faq-header">FAQ</h1>
                 <Grid>
                     <Row>
                         <Col xs={12} md={6}>

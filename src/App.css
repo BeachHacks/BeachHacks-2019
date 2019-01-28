@@ -11,13 +11,20 @@
   height:40vmin; 
   margin-top:20vh;
 }
-
-.sponsor{
+#sponsors{
+  background-color:#ffffff;
+}
+  
+#sponsors .sponsor{
   height:20vmin;
 }
 
-.sponsor-wide{
-  width:75vmin;
+#sponsors .sponsor-wide{
+    width:50vmin;
+  }
+
+.s-container{
+  width:100%;
 }
 
 .App-header {
@@ -138,4 +145,41 @@ a:hover{
     -webkit-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
+    }
+
+    .faq-header{
+      font-size:4em;
+      font-family:'futura-pt-bold';
+    }
+
+    .sponsor-header{
+      font-size:4em;
+      font-family:'futura-pt-bold';
+      color:#2475b9;
+    }
+
+    .sponsor-body{
+      font-family: adelle,serif;
+      font-weight: 400;
+      font-style: normal; 
+      color:#000000;
+    }
+
+    .walter-icon{
+      height:6vmin;
+    }
+
+    .beachhacks-nav{
+      height:5vmin;
+    }
+
+    .item{
+      padding:10px;
+      font-family: futura-pt,sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+
+    .navbrand{
+      display:block;
     }

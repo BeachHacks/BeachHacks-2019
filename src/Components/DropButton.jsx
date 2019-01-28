@@ -45,5 +45,4 @@ export default class DropButton extends Component {
       </div>
     );
   }
-
 }

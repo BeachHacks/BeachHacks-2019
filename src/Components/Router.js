@@ -13,7 +13,7 @@ export default class Router extends Component {
     render(){
         return(
             <BrowserRouter>
-                <div>
+                <div className="s-container">
                     {/* Default route (index.js) */}
                     <Route exact path={routePath + "/"} component ={Home}/>
                     <Route exact path={routePath + "/register"} component ={Register}/>
