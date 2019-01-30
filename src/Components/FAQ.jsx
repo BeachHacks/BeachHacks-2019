@@ -55,8 +55,10 @@ export default class FAQ extends Component {
               </Row>
               <Row>
                 <Col xs={12} md={6}>
-                  <DropButton header="What is the code of conduct?" body={<div><p>We are following the MLH Code of Conduct which can be found <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">here</a></p></div>}/>
-
+                <DropButton header="What if I want to go, but I've never had experience with anything like this before?" body ="There's a first for everything! One of our main goals with BeachHacks is to bring the experience of a hackathon to students who have talent and potential for this kind of event, but never got the oppurtunity to show it.
+                                The great thing about technology is that we're all connected by it and no matter what you're studying, there's a technology you use everyday as a part of your work.
+                                For example, if you're a underwater basket weaving major, you could write a social media app for underwater basket weavers and exchange weaving patterns, color schemes, etc.
+                                Still not sure? JUST DO IT!"/>
                         </Col>
                 <Col xs={12} md={6}>
                   <DropButton header="What if I don't have a team or a project idea?" body="Don't worry! Tons of hackers attend hackathons without a team or fully fledged project idea! We'll have team building excercises to help introduce you to the hackers around you and get the creative juices flowing."/>
@@ -66,10 +68,8 @@ export default class FAQ extends Component {
               <Row>
                 
                 <Col xs={12} md={6}>
-                  <DropButton header="What if I want to go, but I've never had experience with anything like this before?" body ="There's a first for everything! One of our main goals with BeachHacks is to bring the experience of a hackathon to students who have talent and potential for this kind of event, but never got the oppurtunity to show it.
-                                The great thing about technology is that we're all connected by it and no matter what you're studying, there's a technology you use everyday as a part of your work.
-                                For example, if you're a underwater basket weaving major, you could write a social media app for underwater basket weavers and exchange weaving patterns, color schemes, etc.
-                                Still not sure? JUST DO IT!"/>
+                  <DropButton header="What is the code of conduct?" body={<div><p>We are following the MLH Code of Conduct which can be found <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">here</a></p></div>}/>
+
                         </Col>
                 <Col xs={12} md={6}>
                   <DropButton header="Question not answered?" body="Email us at help@beachhacks.com"/>
