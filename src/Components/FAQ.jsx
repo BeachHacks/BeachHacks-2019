@@ -10,7 +10,7 @@ export default class FAQ extends Component {
                 <h1 className="faq-header">FAQ</h1>
                 <Grid>
                     <Row>
-                        <Col xs={6}>
+                        <Col xs={12} md={6}>
                         <Grid>
                             <Row className="fit-col">
                                 <Col xs={12} >
@@ -29,21 +29,22 @@ export default class FAQ extends Component {
                                 Winning teams will receive prizes in the closing ceremony from the judge(s) of the prize category."/>
                 </Col>
                 <Col xs={12}>
-                  <DropButton header="Will there be any travel reimbursement?" body="At this time, we are unable to provide any travel reimbursement.
-                                If this changes, we will update affected parties immediately; however, if accepted to BeachHacks please be ready to provide your own travel arrangements."/>
-                </Col>
-                <Col xs={12}>
                 <DropButton header="What if I want to go, but I've never had experience with anything like this before?" body ="There's a first for everything! One of our main goals with BeachHacks is to bring the experience of a hackathon to students who have talent and potential for this kind of event, but never got the oppurtunity to show it.
                                 The great thing about technology is that we're all connected by it and no matter what you're studying, there's a technology you use everyday as a part of your work.
                                 For example, if you're a underwater basket weaving major, you could write a social media app for underwater basket weavers and exchange weaving patterns, color schemes, etc.
                                 Still not sure? JUST DO IT!"/>
                         </Col>
+
+                        <Col xs={12}>
+                  <DropButton header="Will there be any travel reimbursement?" body="At this time, we are unable to provide any travel reimbursement.
+                                If this changes, we will update affected parties immediately; however, if accepted to BeachHacks please be ready to provide your own travel arrangements."/>
+                </Col>
                             </Row>
                             
                         </Grid>
                             
                         </Col>
-                        <Col xs={6}>
+                        <Col xs={12} md={6}>
                         <Grid>
                             <Row className="fit-col">
                             
