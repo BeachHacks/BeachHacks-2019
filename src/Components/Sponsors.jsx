@@ -13,9 +13,10 @@ export default class Sponsors extends Component {
   render() {
     return (
       <div id='sponsors'>
-        <h1 className="sponsor-header">SPONSORS</h1>
-        <p className="sponsor-body">If you wish to sponsor our event, email us at <a href="sponsorship@beachhacks.com">sponsorship.beachhacks.com</a></p>
+        
         <Grid>
+        <h1 className="sponsor-header">SPONSORS</h1>
+        <p className="sponsor-body">If you wish to sponsor our event, email us at <a className="futura" href="sponsorship@beachhacks.com">sponsorship.beachhacks.com</a></p>
           <Row>
             <Col xs={12} md={12}>
               <Sponsor>
@@ -57,5 +58,4 @@ const Sponsor = posed.div({
   hoverable: true,
   init: { scale: 1, opacity: 0.5 },
   hover: { scale: 1.1, opacity: 1 },
-
 })
