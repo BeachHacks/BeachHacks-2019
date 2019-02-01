@@ -10,9 +10,9 @@ export default class FAQ extends Component {
                 <h1 className="faq-header">FAQ</h1>
                 <Grid>
                     <Row>
-                        <Col xs={6}>
-                        <Grid>
-                            <Row className="fit-col">
+                        <Col xs={12} md={6}>
+                        <div>
+                            <Row>
                                 <Col xs={12} >
                                 <DropButton header="When is it?" body="BeachHacks is 24 hours long starting on April 13, 2019 and ending on April 14, 2019.
                                 A more detailed schedule will be released closer to the event."/>
@@ -40,12 +40,12 @@ export default class FAQ extends Component {
                         </Col>
                             </Row>
                             
-                        </Grid>
+                        </div>
                             
                         </Col>
-                        <Col xs={6}>
-                        <Grid>
-                            <Row className="fit-col">
+                        <Col xs={12} md={6}>
+                        <div>
+                            <Row>
                             
                                 <Col xs={12}>
                                     <DropButton header="Where is it?" body="BeachHacks is being held on CSULB's campus in the University Student Union."/>
@@ -76,7 +76,7 @@ export default class FAQ extends Component {
 
                         </Col>
                                 </Row>
-                                </Grid>
+                                </div>
                                 </Col>
                                 </Row>
                                 </Grid>

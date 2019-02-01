@@ -178,6 +178,8 @@ a:hover{
       height:6vmin;
     }
 
+    
+
     .beachhacks-nav{
       height:5vmin;
     }
@@ -196,3 +198,10 @@ a:hover{
     .fit-col{
       width:50%;
     } 
+
+    @media screen and (max-width:764px){
+      .fit-col{
+        width:100%;
+      }
+    }
+    
