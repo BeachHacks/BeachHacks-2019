@@ -199,9 +199,35 @@ a:hover{
       width:50%;
     } 
 
-    @media screen and (max-width:764px){
+    @media screen and (max-width:1023px){
       .fit-col{
         width:100%;
       }
+      #info{
+      padding-left: 30px;
+      padding-right: 30px;
+      }
+    }
+
+    @media screen and (min-width:1024px)
+    {
+      #info{
+        padding-left: 200px;
+        padding-right:200px;
+      }
     }
     
+    #info{
+      background-color: #E8B985;
+      font-family: futura-pt;
+      text-align: center;
+      /*padding-left: 100px;
+      padding-right: 100px;*/
+    }
+  
+    #info .info-header{
+      font-family: futura-bold-pt;
+      background-color: #E8B985;
+
+    }
+  

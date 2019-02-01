@@ -3,6 +3,7 @@ import Header from './Header';
 import Navigation from './Navigation';
 import Sponsors from './Sponsors';
 import FAQ from './FAQ';
+import Index from './Index';
 
 export default class Home extends Component {
   render() {
@@ -10,6 +11,7 @@ export default class Home extends Component {
       <div>
         <Navigation />
         <Header />
+        <Index />
         <FAQ />
         <Sponsors />
       </div>
