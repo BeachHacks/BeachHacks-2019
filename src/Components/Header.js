@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
+
+import Register from './Register';
 import logo from '../Images/beachhacks logo.png';
+
 
 class Header extends Component {
 
@@ -10,9 +13,7 @@ class Header extends Component {
                 <p>April 13, 2019 - April 14, 2019</p>
                 <p>California State University, Long Beach</p>
                 {/* Apply button with surrounding a tag */}
-                <a href="/register">
-                    <button className="apply-button">Apply</button>
-                </a>
+                <Register/>
             </div>
         );
     }
