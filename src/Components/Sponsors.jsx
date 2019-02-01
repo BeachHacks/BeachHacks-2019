@@ -7,7 +7,6 @@ import Google from '../Images/Sponsors/google.png';
 import Heroku from '../Images/Sponsors/heroku.png';
 import Asi from '../Images/Sponsors/asi.png';
 import CECS from '../Images/Sponsors/cecs.png';
-import Wolfram from '../Images/Sponsors/wolfram.png';
 
 export default class Sponsors extends Component {
 
@@ -26,22 +25,16 @@ export default class Sponsors extends Component {
             </Col>
           </Row>
           <Row>
-            <Col xs={12} md={4}>
+            <Col xs={12} md={6}>
               <Sponsor>
                 <img className="sponsor" src={Heroku} alt="heroku" />
               </Sponsor>
             </Col>
-            <Col xs={12} md={4}>
-                <Sponsor>
-                    <img className="sponsor" src={Wolfram} alt="wolfram language"/>
-                </Sponsor>
-            </Col>
-            <Col xs={12} md={4}>
+            <Col xs={12} md={6}>
               <Sponsor>
                 <img className="sponsor" src={DeVry} alt="devry university" />
               </Sponsor>
             </Col>
-            
           </Row>
           <Row>
             <Col xs={12} md={6}>
