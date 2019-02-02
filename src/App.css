@@ -231,3 +231,8 @@ a:hover{
 
     }
   
+
+    .typeform-popup{
+      display:block;
+      position:relative;
+    }

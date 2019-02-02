@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import Register from './Register';
 import Walter from './Walter';
 
 class Navigation extends Component {
@@ -19,6 +20,9 @@ class Navigation extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav>
+              <NavItem className="item" eventKey={0}>
+                <AnchorLink href="#header"><p>ABOUT</p></AnchorLink>
+              </NavItem>
               <NavItem className="item" eventKey={1}>
                 <AnchorLink href="#faq"><p>FAQ</p></AnchorLink>
               </NavItem>
@@ -26,7 +30,7 @@ class Navigation extends Component {
                 <AnchorLink href="#sponsors">SPONSORS</AnchorLink>
               </NavItem>
               <NavItem className="item" eventKey={3}>
-                <a href="/register">REGISTER</a>
+                <Register><a>REGISTER</a></Register>
               </NavItem>
             </Nav>
           </Navbar.Collapse>
