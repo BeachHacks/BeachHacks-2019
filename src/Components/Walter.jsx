@@ -17,7 +17,7 @@ export default class Walter extends Component {
     return (
       <div className="navbrand">
         <img className="walter-icon" src={this.state.image} alt="Walter" onMouseEnter={this.hover.bind(this)} onMouseLeave={this.hover.bind(this)} />
-        <img className="item beachhacks-nav" src={BeachHacks} alt="BeachHacks"/>
+        <img className="beachhacks-nav" src={BeachHacks} alt="BeachHacks"/>
       </div>
     )
   }

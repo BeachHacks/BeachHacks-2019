@@ -162,7 +162,7 @@ a:hover{
 
     .sponsor-header{
       margin-top:5vh;
-      font-size:4em;
+      font-size:3em;
       font-family:'futura-pt-bold';
       color:#2475b9;
     }
@@ -175,17 +175,26 @@ a:hover{
     }
 
     .walter-icon{
-      height:6vmin;
+      height:100%;
+      margin-right:10px;
     }
 
-    
+    .navbrand{
+      height:100%;
+      width:100%;
+      
+    }
+    .navbar-brand{
+      padding:0px;
+    }
 
     .beachhacks-nav{
       height:5vmin;
     }
 
     .item{
-      padding:10px;
+      padding:5px;
+      margin-top:5px;
       font-family: futura-pt,sans-serif;
       font-weight: 600;
       font-style: normal;
@@ -199,6 +208,16 @@ a:hover{
       width:50%;
     } 
 
+
+    @media screen and (min-width:768px){
+      .navbrand{
+        margin-top:10px;
+      }
+      .container>.navbar-collapse{
+        margin-right:-15px;
+      }
+      
+    }
     @media screen and (max-width:1023px){
       .fit-col{
         width:100%;
@@ -231,6 +250,7 @@ a:hover{
 
     }
   
+
 
     .typeform-popup{
       display:block;
