@@ -11,6 +11,7 @@
   height:40vmin; 
   margin-top:20vh;
 }
+
 #sponsors{
   background-color:#ffffff;
 }
@@ -221,13 +222,11 @@ a:hover{
       background-color: #E8B985;
       font-family: futura-pt;
       text-align: center;
-      /*padding-left: 100px;
-      padding-right: 100px;*/
     }
   
     #info .info-header{
       font-family: futura-bold-pt;
-      background-color: #E8B985;
-
     }
+
+    
   
