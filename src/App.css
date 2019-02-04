@@ -189,7 +189,7 @@ a:hover{
     }
 
     .beachhacks-nav{
-      height:5vmin;
+      height:4vmin;
     }
 
     .item{
@@ -209,12 +209,20 @@ a:hover{
     } 
 
 
+    
+
     @media screen and (min-width:768px){
       .navbrand{
         margin-top:10px;
       }
       .container>.navbar-collapse{
         margin-right:-15px;
+      }
+
+      
+
+      .nav>li>a{
+        padding:10px 0px;
       }
       
     }

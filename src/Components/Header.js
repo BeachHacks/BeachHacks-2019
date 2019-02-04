@@ -14,7 +14,7 @@ class Header extends Component {
         <p>California State University, Long Beach</p>
         {/* Apply button with surrounding a tag */}
         <Register>
-          <button className="apply-button">Apply</button>
+          <button className="apply-button">Register</button>
         </Register>
       </div>
     );
