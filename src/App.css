@@ -201,6 +201,10 @@ a:hover{
       font-style: normal;
     }
 
+
+    .navbar-right{
+      margin-right:0px;
+    }
     .navbrand{
       display:block;
     }
