@@ -213,9 +213,6 @@ a:hover{
       width:50%;
     } 
 
-
-    
-
     @media screen and (min-width:768px){
       .navbrand{
         margin-top:10px;
@@ -259,10 +256,7 @@ a:hover{
       font-family: futura-bold-pt;
     }
 
-    
   
-
-
     .typeform-popup{
       display:block;
       position:relative;

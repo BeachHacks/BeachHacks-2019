@@ -16,6 +16,7 @@ class Header extends Component {
         <Register>
           <button className="apply-button">Register</button>
         </Register>
+        <button className="apply-button">Dark Mode</button>
       </div>
     );
   }
