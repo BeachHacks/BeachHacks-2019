@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Register from './Register';
 import Walter from './Walter';
@@ -11,8 +11,8 @@ class Navigation extends Component {
             <div>
                 <Navbar collapseOnSelect fixedTop>
                     <Navbar.Header>
-                        <Navbar.Brand>
-                            <AnchorLink href="#header">
+                        <Navbar.Brand >
+                            <AnchorLink href="#header" className="item-logo">
                                 <Walter />
                             </AnchorLink>
                         </Navbar.Brand>

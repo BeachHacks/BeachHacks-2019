@@ -212,6 +212,15 @@ a:hover{
       font-style: normal;
     }
 
+    .item-logo{
+      padding-top:10px;
+      padding-bottom:10px;
+      /*margin-top:2px;*/
+      font-family: futura-pt,sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+
 
     .navbar-right{
       margin-right:0px;
@@ -224,6 +233,10 @@ a:hover{
       width:50%;
     } 
 
+
+  .navbar-default>.container{
+  width:100%;
+  }
 
     @media screen and (max-width:769px)
     {
