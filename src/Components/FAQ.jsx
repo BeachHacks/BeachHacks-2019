@@ -2,15 +2,29 @@ import React, {Component} from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 import DropButton from './DropButton';
 
+
+/**
+ * FAQ Page Component
+ * 
+ * Contains all of the information for event on the website
+ * Includes dropdown menus organized on a grid system
+ */
 export default class FAQ extends Component {
 
+    /**
+     * Standard render method
+     */
     render() {
         return (
+            // Use id "faq"
             <div id="faq">
                 <h1 className="faq-header">FAQ</h1>
+                {/* Create initial grid */}
                 <Grid>
                     <Row>
+                        {/* On small sized screens, the inner grid will be merged to the top */}
                         <Col xs={12} md={6}>
+                        {/* Inner grid 1*/}
                         <div>
                             <Row>
                                 <Col xs={12} >
