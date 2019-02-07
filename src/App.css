@@ -312,9 +312,7 @@ a{
     } 
 
 
-    .navbar-collapse .collapse{
-      display:flex !important;
-    }
+  
 
   .navbar-default>.container{
   width:100%;
@@ -345,10 +343,7 @@ a{
       .container>.navbar-collapse{
         margin-right:15px;
       }
-      
-      .navbar-collapse.collapse{
-        display: none !important;
-      }
+    
 
       .nav>li>a{
         padding:10px 0px;
