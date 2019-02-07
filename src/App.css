@@ -211,19 +211,19 @@ a{
 
     @media screen and (min-width:1024px){
       #header{
-        height:180vh;
+        height:160vh;
       }
     }
 
     @media screen and (min-width:1440px){
       #header{
-        height:200vh;
+        height:160vh;
       }
     }
 
     @media screen and (min-width:2560px){
       #header{
-        height:220vh;
+        height:160vh;
       }
     }
     .faq-header{
