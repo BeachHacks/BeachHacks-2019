@@ -312,16 +312,28 @@ a{
     } 
 
 
+    .navbar-collapse .collapse{
+      display:flex !important;
+    }
+
   .navbar-default>.container{
   width:100%;
   }
+    @media screen and (width:768px){
+      .navbrand{
+        margin-top:10px;
+        padding-left:10px;
+      }
+    }
 
-    @media screen and (max-width:769px)
+    @media screen and (max-width:768px)
     {
       .navbrand{
         margin-top:10px;
         padding-left: 10px;
       }
+
+      
 
       .navbar-toggle{
         display: block;
