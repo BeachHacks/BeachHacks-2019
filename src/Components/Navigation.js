@@ -27,7 +27,7 @@ class Navigation extends Component {
                                 <AnchorLink href="#faq"><p>FAQ</p></AnchorLink>
                             </NavItem>
                             <NavItem className="item" eventKey={2}>
-                                <AnchorLink href="#sponsors">SPONSORS</AnchorLink>
+                                <AnchorLink href="#sponsors"><p>SPONSORS</p></AnchorLink>
                             </NavItem>
                             <NavItem className="item" eventKey={3}>
                                 <Register><a>REGISTER</a></Register>
