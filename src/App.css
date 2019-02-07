@@ -157,11 +157,53 @@ a:hover{
       background-color:#D1802F;
       background-image:url(./Images/background-images/long-beach-background.png);
       background-size:100% auto;
-      height:150vh;
+      
       background-position:bottom;
       background-repeat:no-repeat;
     }
 
+    @media screen and (min-width: 320px)
+    {
+      #header{
+        height:90vh;
+      }
+    }
+
+    @media screen and (min-width: 500px){
+      #header{
+        height:105vh;
+      }
+    }
+
+    @media screen and (min-width:768px){
+      #header{
+        height:120vh;
+      }
+    }
+
+    @media screen and (min-width:900px){
+      #header{
+        height:140vh;
+      }
+    }
+
+    @media screen and (min-width:1024px){
+      #header{
+        height:160vh;
+      }
+    }
+
+    @media screen and (min-width:1440px){
+      #header{
+        height:190vh;
+      }
+    }
+
+    @media screen and (min-width:2560px){
+      #header{
+        height:200vh;
+      }
+    }
     .faq-header{
       font-size:4em;
       font-family:'futura-pt-bold';
@@ -297,6 +339,8 @@ a:hover{
       font-family: futura-pt;
       text-align: left;
     }
+
+    
   
     #info .info-header{
       font-family: futura-bold-pt;
