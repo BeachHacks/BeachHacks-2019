@@ -67,9 +67,9 @@
   border: .4rem solid #fff;
   transition: .25s ease-in-out;
   margin-top: 2rem;
-  font-family: adelle,serif;
-  font-weight: 400;
-  font-style: normal; 
+  font-family: futura-pt,sans-serif;
+      font-weight: 600;
+      font-style: normal;
 }
 
 .futura {
@@ -154,6 +154,12 @@ a:hover{
       font-family: adelle,serif;
       font-weight: 400;
       font-style: normal; 
+      background-color:#D1802F;
+      background-image:url(./Images/background-images/long-beach-background.png);
+      background-size:100% auto;
+      height:150vh;
+      background-position:bottom;
+      background-repeat:no-repeat;
     }
 
     .faq-header{
@@ -285,13 +291,16 @@ a:hover{
     }
     
     #info{
-      background-color: #E8B985;
+      margin-top:-40px;
+      height:100vmin;
+      background-color: #0c496c;
       font-family: futura-pt;
-      text-align: center;
+      text-align: left;
     }
   
     #info .info-header{
       font-family: futura-bold-pt;
+      text-align:left;
     }
 
   
