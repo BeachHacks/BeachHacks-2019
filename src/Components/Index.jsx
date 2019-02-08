@@ -4,7 +4,7 @@ export default class Info extends Component {
     render(){
         return(
             <div id="info">
-            <Anime opacity={[0,1]} delay={(e,i) => i * 2000} autoplay={true}>
+            <Anime opacity={[0,1]} translateY={'1em'} delay={(e,i) => i * 3000} autoplay={true}>
             <h1 classname="info-header">What is BeachHacks?</h1>
                 <p classname="info-container">
                 BeachHacks is the fourth collegiate hackathon hosted by California State University, Long Beach! 

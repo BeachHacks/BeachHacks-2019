@@ -90,7 +90,7 @@ a{
 .header-rounded{
   width:50%;
   height:42vmin;
-  background-color:rgb(255,255,255,0.3);
+  background-color:rgba(255,255,255,0.3);
   border-radius:25px;
   align-items:center;
   margin:auto;
@@ -249,11 +249,10 @@ a{
       height:5vmin;
       margin-right:10px;
       max-width: 100%;
-      width: auto\9;
+      width: auto;
     }
 
     .navbar-default{
-      background-color: #282c34;
       border-color: transparent;
     }
 
@@ -271,7 +270,7 @@ a{
 
     .beachhacks-nav{
       height: 4vmin;
-      width: auto\9;
+      width: auto;
     }
 
 
@@ -363,7 +362,12 @@ a{
     }
 
     .navbar{
-      background-color:rgb(12,73,108,0.5);
+      background-color:#0F2547;
+    }
+    
+    .navbar-default{
+      background-color:rgba(12,73,108,0.5);
+      border-color:transparent;
     }
 
     @media screen and (min-width:770px)
