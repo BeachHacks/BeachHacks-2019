@@ -15,7 +15,7 @@
 #sponsors{
   background-color:#ffffff;
 }
-  
+
 #sponsors .sponsor{
   height:20vmin;
 }
@@ -136,10 +136,11 @@
 }
 
 .futura {
-  font-family:"futura-pt";
+  font-family:adelle, serif;
 }
 a{
-  color:white;
+  color: #2475b9;
+  font-weight: 400;
   text-decoration-line:none;
   text-decoration-style:none;
   text-decoration:none !important;
@@ -168,7 +169,8 @@ a{
 }
 
 #faq {
-  background-color: #2475b9; }
+  background-color: #2475b9; 
+  margin-top: -67px}
   #faq .contents {
     padding: 10px 0%;
     text-align: center;
