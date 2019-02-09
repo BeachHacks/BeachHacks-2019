@@ -2,11 +2,18 @@ import React, { Component } from "react";
 
 import Register from "./Register";
 import Image from "../Images/beachhacks header image.svg";
+import Cloud1 from "../Images/background-images/cloud1.png";
+import Cloud2 from "../Images/background-images/cloud2.png";
+
 
 class Header extends Component {
   render() {
     return (
       <div id="header">
+      <div className="clouds">
+        <img src={Cloud1} alt="Cloud1" className="cloud1"/>
+        <img src={Cloud2} alt="Cloud2" className="cloud2"/>
+      </div>
         <div className="container">
           <div className="header-rounded container">
               <img

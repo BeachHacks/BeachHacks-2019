@@ -103,6 +103,38 @@
     width:100%;
   }
 }
+
+
+.cloud1{
+  -webkit-animation: moveclouds 48s linear infinite;
+  -moz-animation: moveclouds 48s linear infinite;;
+  --o-animation: moveclouds 48s linear infinite;
+  transform:scale(0.4);
+  opacity:0.7;
+  position:fixed;
+  left:-325px;
+  top:150px;
+} 
+
+.cloud2{
+  -webkit-animation: moveclouds 46s linear infinite;
+  -moz-animation: moveclouds 46s linear infinite;
+  --o-animation: moveclouds 46s linear infinite; 
+  transform:scale(0.3);
+  opacity:0.7;
+  position:fixed;
+  left:-325px;
+  top:150px;
+}
+
+.clouds{
+  bottom: 0;
+  left: 0;
+  padding-top:100px;
+  position:fixed;
+  height:140vh;
+}
+
 .futura {
   font-family:"futura-pt";
 }
@@ -431,4 +463,31 @@ a{
     .typeform-popup{
       display:block;
       position:relative;
+    }
+
+
+    
+    @-webkit-keyframes moveclouds {
+      0% {
+        margin-left: -100%;
+      }
+      100% {
+        margin-left: 120%;
+      }
+    }
+    @-moz-keyframes moveclouds {
+      0% {
+        margin-left: -120%;
+      }
+      100% {
+        margin-left: 100%;
+      }
+    }
+    @-o-keyframes moveclouds {
+      0% {
+        margin-left: -100%;
+      }
+      100% {
+        margin-left: 120%;
+      }
     }
