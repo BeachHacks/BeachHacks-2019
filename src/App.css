@@ -214,9 +214,13 @@ a{
       font-style: normal; 
       background-image:url(./Images/background-images/long-beach-background.png),linear-gradient(#0c496c 20vh,#fdae42 70vh);
       background-size:100% auto;
-      
+      transition: .25s ease-in-out;
       background-position:bottom;
       background-repeat:no-repeat;
+    }
+
+    #faq>h1{
+      margin-top:0px;
     }
 
     @media screen and (min-width: 320px)
