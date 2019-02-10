@@ -11,9 +11,15 @@ You will also see any lint errors in the console.
 ### Dependencies
 
 react
+
 react-bootstrap
+
 react-typeform-embed
+
 react-router
+
 react-router-dom
+
 react-anchor-link-smooth-scroll
+
 popmotion
