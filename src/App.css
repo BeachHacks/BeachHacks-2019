@@ -30,7 +30,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2475b9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -138,7 +138,8 @@ a{
 
 #faq {
   background-color: #2475b9; 
-  margin-top: -67px}
+  margin-top: 100px;
+  margin-bottom: 10px;}
   #faq .contents {
     padding: 10px 0%;
     text-align: center;
