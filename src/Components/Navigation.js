@@ -21,7 +21,7 @@ class Navigation extends Component {
                     <Navbar.Collapse>
                         <Nav pullRight>
                             <NavItem className="item" eventKey={0}>
-                                <AnchorLink href="#header"><p>ABOUT</p></AnchorLink>
+                                <AnchorLink href="#info"><p>ABOUT</p></AnchorLink>
                             </NavItem>
                             <NavItem className="item" eventKey={1}>
                                 <AnchorLink href="#faq"><p>FAQ</p></AnchorLink>

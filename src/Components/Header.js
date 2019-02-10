@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import Register from "./Register";
 import Image from "../Images/beachhacks header image.svg";
+import Cloud1 from "../Images/background-images/cloud1.png";
+import Cloud2 from "../Images/background-images/cloud2.png";
 
 class Header extends Component {
   render() {
@@ -9,14 +11,18 @@ class Header extends Component {
       <div id="header">
         <div className="container">
           <div className="header-rounded container">
-              <img
-                src={Image}
-                alt="BeachHacks April 20-21st"
-                className="beachhacks-image"
-              />
-              <Register>
-                <button className="apply-button">REGISTER</button>
-              </Register>
+            <img
+              src={Image}
+              alt="BeachHacks April 20-21st"
+              className="beachhacks-image"
+            />
+            <Register>
+              <button className="apply-button">REGISTER</button>
+            </Register>
+          </div>
+          <div className="clouds">
+            <img src={Cloud1} alt="Cloud1" className="cloud1" />
+            <img src={Cloud2} alt="Cloud2" className="cloud2" />
           </div>
         </div>
         {/* <img src={logo} className="beachhacks-logo" alt="logo" />

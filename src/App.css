@@ -130,6 +130,7 @@ a{
   margin:auto;
   margin-top:175px;
   padding:10px;
+  z-index:400;
 }
 .col-xs-12, .col-md-6{
   padding-left:auto;
@@ -218,6 +219,7 @@ a{
       transition: .25s ease-in-out;
       background-position:bottom;
       background-repeat:no-repeat;
+      z-index:300;
     }
 
     #faq>h1{
@@ -229,10 +231,16 @@ a{
       #header{
         height:90vh;
       }
+      .clouds{
+        height:90vh;
+      }
     }
 
     @media screen and (min-width: 500px){
       #header{
+        height:120vh;
+      }
+      .clouds{
         height:120vh;
       }
     }
@@ -241,10 +249,16 @@ a{
       #header{
         height:140vh;
       }
+      .clouds{
+        height:140vh;
+      }
     }
 
     @media screen and (min-width:900px){
       #header{
+        height:160vh;
+      }
+      .clouds{
         height:160vh;
       }
     }
@@ -253,16 +267,25 @@ a{
       #header{
         height:160vh;
       }
+      .clouds{
+        height:160vh;
+      }
     }
 
     @media screen and (min-width:1440px){
       #header{
         height:160vh;
       }
+      .clouds{
+        height:160vh;
+      }
     }
 
     @media screen and (min-width:2560px){
       #header{
+        height:160vh;
+      }
+      .clouds{
         height:160vh;
       }
     }
@@ -417,10 +440,15 @@ a{
     
     #info{
       margin-top:-40px;
-      height:100vmin;
-      background-color: #0c496c;
+      height:150vmin;
+      background-color: #014e7d;
       font-family: futura-pt;
       text-align: left;
+      background-image:url(./Images/background-images/underwater-background.png);
+      transition: .25s ease-in-out;
+      background-size:100% auto;
+      background-position:bottom;
+      background-repeat:no-repeat;
     }
 
     
@@ -435,3 +463,58 @@ a{
       display:block;
       position:relative;
     }
+
+
+    .clouds{
+      left:0;
+      padding-top:100px;
+      position: fixed;
+      right:0;
+      top:0;
+      position:static;
+      z-index:-4000;
+    }
+
+    .cloud1{
+      animation: moveclouds 48s linear infinite;
+      -moz-animation: moveclouds 48s linear infinite;;
+      -o-animation: moveclouds 48s linear infinite;
+      background-image: url(./Images/background-images/cloud1.png);
+      opacity:0.7;
+      transform:scale(0.3);
+      position:absolute;
+      left:-325px;
+      top:300px;
+      bottom: 0;
+      pointer-events:none;
+
+    } 
+    
+    .cloud2{
+      animation: moveclouds 48s linear infinite;
+      -moz-animation: moveclouds 48s linear infinite;;
+      -o-animation: moveclouds 48s linear infinite;
+      background-image: url(./Images/background-images/cloud2.png);
+      opacity:0.7;
+      position:absolute;
+      left:-725px;
+      top:200px;
+      bottom: 0;
+      pointer-events:none;
+    }
+    
+    .clouds{
+      overflow:hidden;
+    }    
+
+    @keyframes moveclouds {
+      0%{
+        transform: translate3d(0, 0, 0);
+        float:right;
+      }
+      100%{
+        transform: translate3d(2800px, 0, 0);
+        float:right;
+      }
+    }
+
