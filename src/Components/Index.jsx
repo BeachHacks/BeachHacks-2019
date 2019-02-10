@@ -3,6 +3,8 @@ import Anime from 'react-anime';
 export default class Info extends Component {
     render(){
         return(
+
+            
             <div id="info">
             <Anime opacity={[0,1]} translateY={'1em'} delay={(e,i) => i * 3000} autoplay={true}>
             <h1 classname="info-header">What is BeachHacks?</h1>
