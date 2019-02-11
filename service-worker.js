@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/BeachHacks-2019/precache-manifest.15ac24f4af5a4781bcbbfdfb9f7748ba.js"
+  "/BeachHacks-2019/precache-manifest.e39c578d0d7d9a50947ab2386616acff.js"
 );
 
 workbox.clientsClaim();
