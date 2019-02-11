@@ -20,10 +20,10 @@ class Header extends Component {
               <button className="apply-button">REGISTER</button>
             </Register>
           </div>
-          <div className="clouds">
+          {/* <div className="clouds">
             <img src={Cloud1} alt="Cloud1" className="cloud1" />
             <img src={Cloud2} alt="Cloud2" className="cloud2" />
-          </div>
+      </div> */}
         </div>
         {/* <img src={logo} className="beachhacks-logo" alt="logo" />
         <p>April 20, 2019 - April 21, 2019</p>

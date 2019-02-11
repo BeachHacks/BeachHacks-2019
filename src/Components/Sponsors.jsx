@@ -54,7 +54,8 @@ export default class Sponsors extends Component {
                             </Sponsor>
                         </Col>
                     </Row>
-                </Grid>
+            </Grid>
+            <h2 className="sponsor-body footer">Made with <span role="img" alt="love">💖</span> from the 3 Musketeers of BeachHacks</h2>
             </div >
         )
     }

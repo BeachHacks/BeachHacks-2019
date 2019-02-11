@@ -302,10 +302,16 @@ a{
     }
 
     .sponsor-body{
-      font-family: adelle,serif;
-      font-weight: 400;
-      font-style: normal; 
+      font-family: futura-pt,sans-serif;
+      font-weight: 600;
+      font-style: normal;
       color:#000000;
+      
+    }
+
+    .footer{
+      margin-bottom:0px;
+      font-size:1em;
     }
 
     .walter-icon{
@@ -335,7 +341,6 @@ a{
       height: 4vmin;
       width: auto;
     }
-
 
     a{
       text-decoration:none;
@@ -464,7 +469,6 @@ a{
       position:relative;
     }
 
-
     .clouds{
       left:0;
       padding-top:100px;
@@ -482,11 +486,12 @@ a{
       background-image: url(./Images/background-images/cloud1.png);
       opacity:0.7;
       transform:scale(0.3);
-      position:absolute;
+      position:relative;
       left:-325px;
       top:300px;
       bottom: 0;
       pointer-events:none;
+      overflow:hidden;
 
     } 
     
@@ -496,11 +501,12 @@ a{
       -o-animation: moveclouds 48s linear infinite;
       background-image: url(./Images/background-images/cloud2.png);
       opacity:0.7;
-      position:absolute;
+      position:relative;
       left:-725px;
       top:200px;
       bottom: 0;
       pointer-events:none;
+      overflow:hidden;
     }
     
     .clouds{
