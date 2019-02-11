@@ -28,7 +28,7 @@ export default class FAQ extends Component {
                         <div>
                             <Row>
                                 <Col xs={12} >
-                                <DropButton header="When is it?" body="BeachHacks is 24 hours long starting on April 13, 2019 and ending on April 14, 2019.
+                                <DropButton header="When is it?" body="BeachHacks is 24 hours long starting on April 20, 2019 and ending on April 21, 2019.
                                 A more detailed schedule will be released closer to the event."/>
                                 </Col>
                                 <Col xs={12}>
