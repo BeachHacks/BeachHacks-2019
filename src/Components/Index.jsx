@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Anime from 'react-anime';
+// import Anime from 'react-anime';
 export default class Info extends Component {
     render(){
         return(

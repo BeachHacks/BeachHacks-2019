@@ -200,7 +200,7 @@ a{
     font-family:"futura-pt"
   }
     #faq .body a {
-      color: #fff; }
+      color: #0645AD; }
   #faq .active {
     padding: 20px;
     max-height: 100%; }
@@ -446,7 +446,6 @@ a{
       }
       
     }
-    
     #info{
       margin-top:-40px;
       height:150vmin;
