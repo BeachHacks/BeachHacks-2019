@@ -357,6 +357,10 @@ a{
       font-style: normal;
     }
 
+    .navbar-default .navbar-nav>li>a{
+      color:white;
+    }
+
     .item-logo{
       padding-top:10px;
       padding-bottom:10px;
