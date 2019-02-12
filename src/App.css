@@ -425,6 +425,10 @@ a{
       background-color:#0F2547;
     }
     
+    .navbar-collapse.in{
+      overflow-y: hidden;
+    }
+
     .navbar-default{
       background-color:rgba(12,73,108,0.5);
       border-color:transparent;
