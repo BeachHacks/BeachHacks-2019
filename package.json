@@ -2,7 +2,7 @@
   "name": "beachhacks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://beachhacks.github.io/BeachHacks-2019",
+  "homepage": "https://beachhacks-2019.herokuapp.com/",
   "dependencies": {
     "animejs": "^3.0.1",
     "react": "^16.7.0",
