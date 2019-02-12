@@ -21,10 +21,10 @@ class Navigation extends Component {
                     <Navbar.Collapse>
                         <Nav pullRight>
                             <NavItem className="item" eventKey={0}>
-                                <AnchorLink href="#info"><p>ABOUT</p></AnchorLink>
+                                <AnchorLink offset='125' href="#info"><p>ABOUT</p></AnchorLink>
                             </NavItem>
                             <NavItem className="item" eventKey={1}>
-                                <AnchorLink href="#faq"><p>FAQ</p></AnchorLink>
+                                <AnchorLink offset='150' href="#faq"><p>FAQ</p></AnchorLink>
                             </NavItem>
                             <NavItem className="item" eventKey={2}>
                                 <AnchorLink href="#sponsors"><p>SPONSORS</p></AnchorLink>
