@@ -25,7 +25,7 @@ class Navigation extends Component {
                 </AnchorLink>
               </NavItem>
               <NavItem className="item" eventKey={1}>
-                <AnchorLink offset="150" href="#faq">
+                <AnchorLink offset="180" href="#faq">
                   <p>FAQ</p>
                 </AnchorLink>
               </NavItem>
