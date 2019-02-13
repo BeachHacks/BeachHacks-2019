@@ -7,7 +7,9 @@ import Google from '../Images/Sponsors/google.png';
 import Heroku from '../Images/Sponsors/heroku.png';
 import Asi from '../Images/Sponsors/asi.png';
 import CECS from '../Images/Sponsors/cecs.png';
-import Wolfram from '../Images/Sponsors/wolfram.png'
+import Wolfram from '../Images/Sponsors/wolfram.png';
+import Facebook from '../Images/facebooklogo.png';
+import Instagram from '../Images/instagramlogo.png';
 
 export default class Sponsors extends Component {
 
@@ -55,7 +57,13 @@ export default class Sponsors extends Component {
                         </Col>
                     </Row>
             </Grid>
-            <h2 className="sponsor-body footer">Made with <span role="img" alt="love">💖</span> from the 3 Musketeers of BeachHacks</h2>
+            <h2 classname="socialmedia">
+                <a href="https://www.facebook.com/BeachHacks/">
+                <img src={Facebook} width="80" height="80" alt="BeachHacks Facebook"/></a>
+                <a href="https://instagram.com/beachhackscsulb/">
+                <img src={Instagram} width="80" height="80" alt="BeachHacks Instagram"/></a>
+            </h2>
+            <h3 className="sponsor-body footer">Made with <span role="img" alt="love">💖</span> from the 3 Musketeers of BeachHacks</h3>
             </div >
         )
     }
