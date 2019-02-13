@@ -200,7 +200,7 @@ a{
     font-family:"futura-pt"
   }
     #faq .body a {
-      color: #fff; }
+      color: #0645AD; }
   #faq .active {
     padding: 20px;
     max-height: 100%; }
@@ -357,6 +357,10 @@ a{
       font-style: normal;
     }
 
+    .navbar-default .navbar-nav>li>a{
+      color:white;
+    }
+
     .item-logo{
       padding-top:10px;
       padding-bottom:10px;
@@ -446,7 +450,6 @@ a{
       }
       
     }
-    
     #info{
       margin-top:-40px;
       height:150vmin;

@@ -49,7 +49,7 @@ export default class FAQ extends Component {
                                 Still not sure? JUST DO IT!"/>
                         </Col>
                          <Col xs={12}>
-                  <DropButton header="What is the code of conduct?" body={<div><p>We are following the MLH Code of Conduct which can be found <a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">here</a></p></div>}/>
+                  <DropButton header="What is the code of conduct?" body={<div><p>We are following the MLH Code of Conduct which can be found <a className="link" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf">here</a></p></div>}/>
 
                         </Col>
                             </Row>

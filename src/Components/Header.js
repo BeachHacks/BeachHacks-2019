@@ -2,8 +2,8 @@ import React, { Component } from "react";
 
 import Register from "./Register";
 import Image from "../Images/beachhacks header image.svg";
-import Cloud1 from "../Images/background-images/cloud1.png";
-import Cloud2 from "../Images/background-images/cloud2.png";
+// import Cloud1 from "../Images/background-images/cloud1.png";
+// import Cloud2 from "../Images/background-images/cloud2.png";
 
 class Header extends Component {
   render() {
