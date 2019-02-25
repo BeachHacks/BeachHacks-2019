@@ -1,8 +1,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The website is live at https://beachhacks.com
+The website is live at https://www.beachhacks.com
 
 To start the project, use the commnad **npm start** to run the app in development mode. 
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
