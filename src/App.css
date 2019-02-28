@@ -7,26 +7,26 @@
   height: 40vmin;
 }
 
-.beachhacks-logo{
-  height:40vmin; 
-  margin-top:20vh;
+.beachhacks-logo {
+  height: 40vmin;
+  margin-top: 20vh;
 }
 
-#sponsors{
-  background-color:#ffffff;
+#sponsors {
+  background-color: #ffffff;
 }
 
-#sponsors .sponsor{
-  height:20vmin;
+#sponsors .sponsor {
+  height: 20vmin;
 }
 
-#sponsors .sponsor-wide{
-    width:50vmin;
-    padding:5vmin;
-  }
+#sponsors .sponsor-wide {
+  width: 50vmin;
+  padding: 5vmin;
+}
 
-.s-container{
-  width:100%;
+.s-container {
+  width: 100%;
 }
 
 .App-header {
@@ -53,475 +53,494 @@
   }
 }
 
-.apply-button{
+.apply-button {
   font-weight: 700;
   text-align: center;
   vertical-align: middle;
-  padding: .25rem 2.5rem;
+  padding: 0.25rem 2.5rem;
   border-radius: 2rem;
   cursor: pointer;
-  color:#0F2547;
+  color: #0f2547;
   background-color: transparent;
-  border: .3vh solid #0F2547;
-  transition: .25s ease-in-out;
-  font-family: futura-pt,sans-serif;
+  border: 0.3vh solid #0f2547;
+  transition: 0.25s ease-in-out;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.reg{
+  color: #0f2547;
+  font-family: futura-pt, sans-serif;
   font-weight: 600;
   font-style: normal;
 }
 
-@media screen and (max-width:550px){
-  .apply-button{
-    font-size:4vh;
-    margin-top:25px;
-
+@media screen and (max-width: 550px) {
+  .apply-button {
+    font-size: 4vh;
+    margin-top: 25px;
   }
 
-  .header-rounded{
-    width:100%;
-  }
-}
-
-@media screen and (max-width:767px){
-  .item-logo{
-    padding-top:none;
+  .header-rounded {
+    width: 100%;
   }
 }
 
-@media screen and (min-width:551px){
-  .apply-button{
-    font-size:3vh;
-    margin-top:25px;
-  }
-
-  .header-rounded{
-    width:50%;
+@media screen and (max-width: 767px) {
+  .item-logo {
+    padding-top: none;
   }
 }
 
-@media screen and (max-width:450px){
-  .header-rounded{
-    width:100%;
+@media screen and (min-width: 551px) {
+  .apply-button {
+    font-size: 3vh;
+    margin-top: 10px;
+  }
+
+  .header-rounded {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header-rounded {
+    width: 100%;
   }
 }
 .futura {
-  font-family:adelle, serif;
+  font-family: adelle, serif;
 }
-a{
+a {
   color: #2475b9;
   font-weight: 400;
-  text-decoration-line:none;
-  text-decoration-style:none;
-  text-decoration:none !important;
+  text-decoration-line: none;
+  text-decoration-style: none;
+  text-decoration: none !important;
 }
 
-
-.beachhacks-image{
-  margin-top:25px;
-  width:85%;
+.beachhacks-image {
+  margin-top: 25px;
+  width: 85%;
 }
 
-.header-rounded{
+.header-rounded {
   /* width:50%;
   height:42vmin; */
-  transition: .25s ease-in-out;
-  background-color:rgba(255,255,255,0.3);
-  border-radius:25px;
-  align-items:center;
-  margin:auto;
-  margin-top:175px;
-  padding:10px;
-  z-index:400;
+  transition: 0.25s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  align-items: center;
+  margin: auto;
+  margin-top: 175px;
+  padding: 10px;
+  z-index: 400;
 }
-.col-xs-12, .col-md-6{
-  padding-left:auto;
-  padding-right:auto;
+.col-xs-12,
+.col-md-6 {
+  padding-left: auto;
+  padding-right: auto;
 }
 
 #faq {
-  background-color: #2475b9; 
+  background-color: #2475b9;
   margin-top: 100px;
-  margin-bottom: 10px;}
-  #faq .contents {
-    padding: 10px 0%;
-    text-align: center;
-    font-size: 20px;
-    font-family:"futura-pt";
-    }
-  #faq h3 {
-    text-align: center;
-    font-size: 3em;
-    text-transform: uppercase;
-    letter-spacing: .03em;
-    margin-bottom: 30px; }
-  #faq .faqcolumn {
-    width: 45%;
-    display: inline-block;
-    margin: 0px 1%;
-    vertical-align: top;
-    }
-  #faq .drop-element {
-    text-align: left;
-    margin-bottom: 20px;
-    }
-  #faq .header {
-    background-color: #fff;
-    color: #2475b9;
-    padding: 20px 20px 14px 20px;
-    cursor: pointer;
-    border-radius:2rem;
-    font-family: adelle,serif;
-    font-weight: 400;
-    font-style: normal; 
-    }
-  #faq .header:after {
-    color: #2475b9;
-    -webkit-font-smoothing: antialiased;
-    content: ">";
-    position: relative;
+  margin-bottom: 10px;
+}
+#faq .contents {
+  padding: 10px 0%;
+  text-align: center;
+  font-size: 20px;
+  font-family: "futura-pt";
+}
+#faq h3 {
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+}
+#faq .faqcolumn {
+  width: 45%;
+  display: inline-block;
+  margin: 0px 1%;
+  vertical-align: top;
+}
+#faq .drop-element {
+  text-align: left;
+  margin-bottom: 20px;
+}
+#faq .header {
+  background-color: #fff;
+  color: #2475b9;
+  padding: 20px 20px 14px 20px;
+  cursor: pointer;
+  border-radius: 2rem;
+  font-family: adelle, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#faq .header:after {
+  color: #2475b9;
+  -webkit-font-smoothing: antialiased;
+  content: ">";
+  position: relative;
+  float: right;
+  font-size: 1em;
+  font-weight: bold;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+#faq .body {
+  /* border: 3px solid #fff; */
+  padding: 0px 20px;
+  max-height: 0;
+  overflow-y: hidden;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  padding-right: 2em;
+  font-family: "futura-pt";
+}
+#faq .body a {
+  color: #0645ad;
+}
+#faq .active {
+  padding: 20px;
+  max-height: 100%;
+}
+#faq .flipArrow:after {
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+#header {
+  font-family: adelle, serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url(./Images/background-images/long-beach-background.png),
+    linear-gradient(#0c496c 20vh, #fdae42 70vh);
+  background-size: 100% auto;
+  transition: 0.25s ease-in-out;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  z-index: 300;
+}
+
+#faq > h1 {
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 320px) {
+  #header {
+    height: 90vh;
+  }
+  .clouds {
+    height: 90vh;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  #header {
+    height: 120vh;
+  }
+  .clouds {
+    height: 120vh;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #header {
+    height: 140vh;
+  }
+  .clouds {
+    height: 140vh;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #header {
+    height: 160vh;
+  }
+  .clouds {
+    height: 160vh;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #header {
+    height: 160vh;
+  }
+  .clouds {
+    height: 160vh;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #header {
+    height: 160vh;
+  }
+  .clouds {
+    height: 160vh;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  #header {
+    height: 160vh;
+  }
+  .clouds {
+    height: 160vh;
+  }
+}
+.faq-header {
+  font-size: 4em;
+  font-family: "futura-pt-bold";
+}
+
+.sponsor-header {
+  margin-top: 5vh;
+  font-size: 3em;
+  font-family: "futura-pt-bold";
+  color: #2475b9;
+}
+
+.sponsor-body {
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #000000;
+}
+
+.footer {
+  margin-bottom: 0px;
+  font-size: 1em;
+}
+
+.walter-icon {
+  height: 5vmin;
+  margin-right: 10px;
+  max-width: 100%;
+  width: auto;
+}
+
+.navbar-default {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbrand {
+  height: 100%;
+  width: 100%;
+}
+.navbar-brand {
+  padding: 0px;
+}
+
+.beachhacks-nav {
+  height: 4vmin;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.hover {
+  text-decoration: none;
+}
+.item {
+  padding: 10px;
+  /*margin-top:2px;*/
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+#mlh-trust-badge {
+  display: block;
+  max-width: 100px;
+  min-width: 60px;
+  position: fixed;
+  right: 25px;
+
+  width: 10%;
+  z-index: 10000;
+}
+
+@media screen and (min-width: 768px) {
+  #mlh-trust-badge {
+    top: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #mlh-trust-badge {
+    top: 50px;
+  }
+}
+
+.item-logo {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*margin-top:2px;*/
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.navbar-right {
+  margin-right: 0px;
+}
+.navbrand {
+  display: block;
+}
+
+.fit-col {
+  width: 50%;
+}
+
+.navbar-default > .container {
+  width: 100%;
+}
+@media screen and (width: 768px) {
+  .navbrand {
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbrand {
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+
+  .nav > li > a {
+    padding: 10px 0px;
+  }
+
+  #info {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.item > a > a > p,
+.item > a > a,
+.item > a > .typeform-popup > .registration > a {
+  color: #ffffff;
+}
+
+.navbar {
+  background-color: #0f2547;
+}
+
+.navbar-collapse.in {
+  overflow-y: hidden;
+}
+
+.navbar-default {
+  background-color: rgba(12, 73, 108, 0.5);
+  border-color: transparent;
+}
+
+@media screen and (min-width: 770px) {
+  .navbrand {
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+  #info {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+#info {
+  margin-top: -40px;
+  height: 150vmin;
+  background-color: #014e7d;
+  font-family: futura-pt;
+  text-align: left;
+  background-image: url(./Images/background-images/underwater-background.png);
+  transition: 0.25s ease-in-out;
+  background-size: 100% auto;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+#info .info-header {
+  font-family: futura-bold-pt;
+  text-align: left;
+}
+
+.typeform-popup {
+  display: block;
+  position: relative;
+}
+
+.clouds {
+  left: 0;
+  padding-top: 100px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  position: static;
+  z-index: -4000;
+}
+
+.cloud1 {
+  animation: moveclouds 48s linear infinite;
+  -moz-animation: moveclouds 48s linear infinite;
+  -o-animation: moveclouds 48s linear infinite;
+  background-image: url(./Images/background-images/cloud1.png);
+  opacity: 0.7;
+  transform: scale(0.3);
+  position: relative;
+  left: -325px;
+  top: 300px;
+  bottom: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.cloud2 {
+  animation: moveclouds 48s linear infinite;
+  -moz-animation: moveclouds 48s linear infinite;
+  -o-animation: moveclouds 48s linear infinite;
+  background-image: url(./Images/background-images/cloud2.png);
+  opacity: 0.7;
+  position: relative;
+  left: -725px;
+  top: 200px;
+  bottom: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.clouds {
+  overflow: hidden;
+}
+
+@keyframes moveclouds {
+  0% {
+    transform: translate3d(0, 0, 0);
     float: right;
-    font-size: 1em;
-    font-weight: bold;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    }
-  #faq .body {
-    /* border: 3px solid #fff; */
-    padding: 0px 20px;
-    max-height: 0;
-    overflow-y: hidden;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
-    -webkit-transition-timing-function: ease-out;
-    -moz-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-    padding-right: 2em;
-    font-family:"futura-pt"
   }
-    #faq .body a {
-      color: #0645AD; }
-  #faq .active {
-    padding: 20px;
-    max-height: 100%; }
-  #faq .flipArrow:after {
-    -webkit-transform: rotate(270deg);
-    -ms-transform: rotate(270deg);
-    transform: rotate(270deg);
-    }
-
-    #header{
-      font-family: adelle,serif;
-      font-weight: 400;
-      font-style: normal; 
-      background-image:url(./Images/background-images/long-beach-background.png),linear-gradient(#0c496c 20vh,#fdae42 70vh);
-      background-size:100% auto;
-      transition: .25s ease-in-out;
-      background-position:bottom;
-      background-repeat:no-repeat;
-      z-index:300;
-    }
-
-    #faq>h1{
-      margin-top:0px;
-    }
-
-    @media screen and (min-width: 320px)
-    {
-      #header{
-        height:90vh;
-      }
-      .clouds{
-        height:90vh;
-      }
-    }
-
-    @media screen and (min-width: 500px){
-      #header{
-        height:120vh;
-      }
-      .clouds{
-        height:120vh;
-      }
-    }
-
-    @media screen and (min-width:768px){
-      #header{
-        height:140vh;
-      }
-      .clouds{
-        height:140vh;
-      }
-    }
-
-    @media screen and (min-width:900px){
-      #header{
-        height:160vh;
-      }
-      .clouds{
-        height:160vh;
-      }
-    }
-
-    @media screen and (min-width:1024px){
-      #header{
-        height:160vh;
-      }
-      .clouds{
-        height:160vh;
-      }
-    }
-
-    @media screen and (min-width:1440px){
-      #header{
-        height:160vh;
-      }
-      .clouds{
-        height:160vh;
-      }
-    }
-
-    @media screen and (min-width:2560px){
-      #header{
-        height:160vh;
-      }
-      .clouds{
-        height:160vh;
-      }
-    }
-    .faq-header{
-      font-size:4em;
-      font-family:'futura-pt-bold';
-    }
-
-    .sponsor-header{
-      margin-top:5vh;
-      font-size:3em;
-      font-family:'futura-pt-bold';
-      color:#2475b9;
-    }
-
-    .sponsor-body{
-      font-family: futura-pt,sans-serif;
-      font-weight: 600;
-      font-style: normal;
-      color:#000000;
-      
-    }
-
-    .footer{
-      margin-bottom:0px;
-      font-size:1em;
-    }
-
-    .walter-icon{
-      height:5vmin;
-      margin-right:10px;
-      max-width: 100%;
-      width: auto;
-    }
-
-    .navbar-default{
-      border-color: transparent;
-    }
-
-    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
-      background-color: transparent;
-    }
-
-    .navbrand{
-      height:100%;
-      width:100%;
-    }
-    .navbar-brand{
-      padding:0px;
-    }
-
-    .beachhacks-nav{
-      height: 4vmin;
-      width: auto;
-    }
-
-    a{
-      text-decoration:none;
-    }
-
-    a.hover{
-      text-decoration:none;
-    }
-    .item{
-      padding:10px;
-      /*margin-top:2px;*/
-      font-family: futura-pt,sans-serif;
-      font-weight: 600;
-      font-style: normal;
-    }
-
-    .navbar-default .navbar-nav>li>a{
-      color:white;
-    }
-
-    .item-logo{
-      padding-top:10px;
-      padding-bottom:10px;
-      /*margin-top:2px;*/
-      font-family: futura-pt,sans-serif;
-      font-weight: 600;
-      font-style: normal;
-    }
-
-
-    .navbar-right{
-      margin-right:0px;
-    }
-    .navbrand{
-      display:block;
-    }
-
-    .fit-col{
-      width:50%;
-    } 
-
-
-  
-
-  .navbar-default>.container{
-  width:100%;
+  100% {
+    transform: translate3d(2800px, 0, 0);
+    float: right;
   }
-    @media screen and (width:768px){
-      .navbrand{
-        margin-top:10px;
-        padding-left:10px;
-      }
-    }
-
-    @media screen and (max-width:768px)
-    {
-      .navbrand{
-        margin-top:10px;
-        padding-left: 10px;
-      } 
-      
-      .nav>li>a{
-        padding:10px 0px;
-      }
-
-      #info{
-        padding-left: 20px;
-        padding-right:20px;
-      }
-    }
-
-
-    .item>a>a>p,
-    .item>a>a,
-    .item>a>.typeform-popup>.registration>a{
-      color:#FFFFFF;
-    }
-
-    .navbar{
-      background-color:#0F2547;
-    }
-    
-    .navbar-collapse.in{
-      overflow-y: hidden;
-    }
-
-    .navbar-default{
-      background-color:rgba(12,73,108,0.5);
-      border-color:transparent;
-    }
-
-    @media screen and (min-width:770px)
-    {
-      .navbrand{
-        margin-top:10px;
-        padding-left:10px;
-      }
-      #info{
-        padding-left: 200px;
-        padding-right:200px;
-      }
-      
-    }
-    #info{
-      margin-top:-40px;
-      height:150vmin;
-      background-color: #014e7d;
-      font-family: futura-pt;
-      text-align: left;
-      background-image:url(./Images/background-images/underwater-background.png);
-      transition: .25s ease-in-out;
-      background-size:100% auto;
-      background-position:bottom;
-      background-repeat:no-repeat;
-    }
-
-    
-  
-    #info .info-header{
-      font-family: futura-bold-pt;
-      text-align:left;
-    }
-
-  
-    .typeform-popup{
-      display:block;
-      position:relative;
-    }
-
-    .clouds{
-      left:0;
-      padding-top:100px;
-      position: fixed;
-      right:0;
-      top:0;
-      position:static;
-      z-index:-4000;
-    }
-
-    .cloud1{
-      animation: moveclouds 48s linear infinite;
-      -moz-animation: moveclouds 48s linear infinite;;
-      -o-animation: moveclouds 48s linear infinite;
-      background-image: url(./Images/background-images/cloud1.png);
-      opacity:0.7;
-      transform:scale(0.3);
-      position:relative;
-      left:-325px;
-      top:300px;
-      bottom: 0;
-      pointer-events:none;
-      overflow:hidden;
-
-    } 
-    
-    .cloud2{
-      animation: moveclouds 48s linear infinite;
-      -moz-animation: moveclouds 48s linear infinite;;
-      -o-animation: moveclouds 48s linear infinite;
-      background-image: url(./Images/background-images/cloud2.png);
-      opacity:0.7;
-      position:relative;
-      left:-725px;
-      top:200px;
-      bottom: 0;
-      pointer-events:none;
-      overflow:hidden;
-    }
-    
-    .clouds{
-      overflow:hidden;
-    }    
-
-    @keyframes moveclouds {
-      0%{
-        transform: translate3d(0, 0, 0);
-        float:right;
-      }
-      100%{
-        transform: translate3d(2800px, 0, 0);
-        float:right;
-      }
-    }
-
+}
