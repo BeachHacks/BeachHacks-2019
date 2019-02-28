@@ -16,6 +16,7 @@ class Header extends Component {
               alt="BeachHacks April 20-21st"
               className="beachhacks-image"
             />
+            <p className="reg">REGISTRATION CLOSES MARCH 31ST</p>
             <Register>
               <a href="https://beachhacks.typeform.com/to/LGUC4U">
                 <button className="apply-button">REGISTER</button>

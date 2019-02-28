@@ -68,6 +68,12 @@
   font-weight: 600;
   font-style: normal;
 }
+.reg{
+  color: #0f2547;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
 
 @media screen and (max-width: 550px) {
   .apply-button {
@@ -89,7 +95,7 @@
 @media screen and (min-width: 551px) {
   .apply-button {
     font-size: 3vh;
-    margin-top: 25px;
+    margin-top: 10px;
   }
 
   .header-rounded {
