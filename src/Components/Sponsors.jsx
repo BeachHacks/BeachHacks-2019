@@ -23,44 +23,50 @@ export default class Sponsors extends Component {
                     <Row>
                         <Col xs={12} md={12}>
                             <Sponsor>
-                                <img className="sponsor" src={Google} alt="google" />
+                                <a href="https://www.google.com/" target="_blank">
+                                <img className="sponsor" src={Google} alt="google" /></a>
                             </Sponsor>
                         </Col>
                     </Row>
                     <Row>
                         <Col xs={12} md={4}>
                             <Sponsor>
-                                <img className="sponsor" src={Heroku} alt="heroku" />
+                                <a href="https://www.heroku.com/" target="_blank">
+                                <img className="sponsor" src={Heroku} alt="heroku" /></a>
                             </Sponsor>
                         </Col>
                         <Col xs={12} md={4}>
                             <Sponsor>
-                                <img className="sponsor" src={Wolfram} alt="wolfram alpha" />
+                                <a href="https://www.wolframalpha.com/" target="_blank">
+                                <img className="sponsor" src={Wolfram} alt="wolfram alpha" /></a>
                             </Sponsor>
                         </Col>
                         <Col xs={12} md={4}>
                             <Sponsor>
-                                <img className="sponsor" src={DeVry} alt="devry university" />
+                                <a href="https://www.devry.edu/" target="_blank">
+                                <img className="sponsor" src={DeVry} alt="devry university" /></a>
                             </Sponsor>
                         </Col>
                     </Row>
                     <Row>
                         <Col xs={12} md={6}>
                             <Sponsor>
-                                <img className="sponsor-wide" src={Asi} alt="  asi" />
+                                <a href="https://www.asicsulb.org/corporate/" target="_blank">
+                                <img className="sponsor-wide" src={Asi} alt="  asi" /></a>
                             </Sponsor>
                         </Col>
                         <Col xs={12} md={6}>
                             <Sponsor>
-                                <img className="sponsor-wide" src={CECS} alt="CECS" />
+                                <a href="https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science" target="_blank">
+                                <img className="sponsor-wide" src={CECS} alt="CECS" /></a>
                             </Sponsor>
                         </Col>
                     </Row>
             </Grid>
             <h2 classname="socialmedia">
-                <a href="https://www.facebook.com/BeachHacks/">
+                <a href="https://www.facebook.com/BeachHacks/" target="_blank">
                 <img src={Facebook} width="80" height="80" alt="BeachHacks Facebook"/></a>
-                <a href="https://instagram.com/beachhackscsulb/">
+                <a href="https://instagram.com/beachhackscsulb/" target="_blank">
                 <img src={Instagram} width="80" height="80" alt="BeachHacks Instagram"/></a>
             </h2>
             <h3 className="sponsor-body footer">Made with <span role="img" alt="love">💖</span> from the 3 Musketeers of BeachHacks</h3>
