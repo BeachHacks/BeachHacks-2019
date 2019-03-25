@@ -27,6 +27,11 @@ class Header extends Component {
                 <button className="apply-button">VOLUNTEER</button>
               </a>
             </Register>
+            <Register>
+              <a href="https://beachhacks.typeform.com/to/mKzdz2">
+                <button className="apply-button">MENTOR</button>
+              </a>
+            </Register>
           </div>
           {/* <div className="clouds">
             <img src={Cloud1} alt="Cloud1" className="cloud1" />
