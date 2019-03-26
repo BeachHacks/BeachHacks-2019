@@ -61,7 +61,7 @@ export default class Sponsors extends Component {
           <Row>
             <Col xs={12} md={4}>
               <Sponsor>
-                <a href="https://www.stickermule.com/" target="_blank">
+                <a href="http://hackp.ac/mlh-stickermule-hackathons" target="_blank">
                   <img
                     className="sponsor"
                     src={Stickermule}
