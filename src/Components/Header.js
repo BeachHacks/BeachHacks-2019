@@ -31,7 +31,7 @@ class Header extends Component {
                 <button className="apply-button">MENTOR</button>
               </a>
             </Register><br/>
-            <p className="reg">REGISTRATION CLOSES SUNDAY, MARCH 31</p>
+            <p className="reg">REGISTRATION DEADLINE  <br />EXTENDED TO APRIL 12TH</p>
           </div>
           {/* <div className="clouds">
             <img src={Cloud1} alt="Cloud1" className="cloud1" />

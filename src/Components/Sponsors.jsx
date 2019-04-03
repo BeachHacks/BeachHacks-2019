@@ -15,6 +15,8 @@ import ZestTea from "../Images/Sponsors/zest tea.png";
 import Suja from "../Images/Sponsors/suja.png";
 import OarsAndAlps from "../Images/Sponsors/oarsandalps.png";
 import MSI from "../Images/Sponsors/msi.png";
+import Northrop from "../Images/Sponsors/northrop.png";
+import BadaBean from "../Images/Sponsors/badabean.png";
 
 export default class Sponsors extends Component {
   render() {
@@ -38,8 +40,8 @@ export default class Sponsors extends Component {
             </Col>
             <Col xs={12} md={4}>
               <Sponsor>
-                <a href="https://www.heroku.com/" target="_blank">
-                  <img className="sponsor" src={Heroku} alt="heroku" />
+                <a href="http://www.northropgrumman.com/Pages/default.aspx" traget="_blank">
+                  <img className="sponsor" src={Northrop} alt="northrp grumman"/>
                 </a>
               </Sponsor>
             </Col>
@@ -54,6 +56,13 @@ export default class Sponsors extends Component {
           <Row>
             <Col xs={12} md={4}>
               <Sponsor>
+                <a href="https://www.heroku.com/" target="_blank">
+                  <img className="sponsor" src={Heroku} alt="heroku" />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
                 <a href="https://www.devry.edu/" target="_blank">
                   <img className="sponsor" src={DeVry} alt="devry university" />
                 </a>
@@ -63,20 +72,6 @@ export default class Sponsors extends Component {
               <Sponsor>
                 <a href="https://us.msi.com/" target="_blank">
                   <img className="sponsor" src={MSI} alt="msi" />
-                </a>
-              </Sponsor>
-            </Col>
-            <Col xs={12} md={4}>
-              <Sponsor>
-                <a
-                  href="http://hackp.ac/mlh-stickermule-hackathons"
-                  target="_blank"
-                >
-                  <img
-                    className="sponsor"
-                    src={Stickermule}
-                    alt="stickermule"
-                  />
                 </a>
               </Sponsor>
             </Col>
@@ -101,6 +96,29 @@ export default class Sponsors extends Component {
               </Sponsor>
             </Col>
             <Col xs={12} md={4}>
+              <Sponsor>
+                <a
+                  href="http://hackp.ac/mlh-stickermule-hackathons"
+                  target="_blank"
+                >
+                  <img
+                    className="sponsor"
+                    src={Stickermule}
+                    alt="stickermule"
+                  />
+                </a>
+              </Sponsor>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12} md={6}>
+              <Sponsor>
+                <a href="https://www.badabeansnacks.com/" target="_blank">
+                  <img className="sponsor" src={BadaBean} alt="badabean badaboom" />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={6}>
               <Sponsor>
                 <a href="https://www.sujajuice.com/" target="_blank">
                   <img className="sponsor" src={Suja} alt="suja" />
