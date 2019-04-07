@@ -17,6 +17,12 @@ import OarsAndAlps from "../Images/Sponsors/oarsandalps.png";
 import MSI from "../Images/Sponsors/msi.png";
 import Northrop from "../Images/Sponsors/northrop.png";
 import BadaBean from "../Images/Sponsors/badabean.png";
+import Monster from "../Images/Sponsors/monster.png";
+import Hint from "../Images/Sponsors/hintwater.png";
+import Corsair from "../Images/Sponsors/corsair.png";
+import Smashmallow from "../Images/Sponsors/smashmallow.png";
+import MLH from "../Images/Sponsors/mlh.png";
+import TheDavids from "../Images/Sponsors/thedavids.png";
 
 export default class Sponsors extends Component {
   render() {
@@ -31,17 +37,33 @@ export default class Sponsors extends Component {
             </a>
           </p>
           <Row>
-            <Col xs={12} md={4}>
+            <Col xs={12} md={6}>
               <Sponsor>
                 <a href="https://www.google.com/" target="_blank">
                   <img className="sponsor" src={Google} alt="google" />
                 </a>
               </Sponsor>
             </Col>
-            <Col xs={12} md={4}>
+            <Col xs={12} md={6}>
               <Sponsor>
                 <a href="http://www.northropgrumman.com/Pages/default.aspx" traget="_blank">
-                  <img className="sponsor" src={Northrop} alt="northrp grumman"/>
+                  <img className="sponsor" src={Northrop} alt="northrp grumman" />
+                </a>
+              </Sponsor>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="https://www.corsair.com/us/en/" target="_blank">
+                  <img className="sponsor" src={Corsair} alt="corsair" />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="https://us.msi.com/" target="_blank">
+                  <img className="sponsor" src={MSI} alt="msi" />
                 </a>
               </Sponsor>
             </Col>
@@ -63,35 +85,8 @@ export default class Sponsors extends Component {
             </Col>
             <Col xs={12} md={4}>
               <Sponsor>
-                <a href="https://www.devry.edu/" target="_blank">
-                  <img className="sponsor" src={DeVry} alt="devry university" />
-                </a>
-              </Sponsor>
-            </Col>
-            <Col xs={12} md={4}>
-              <Sponsor>
-                <a href="https://us.msi.com/" target="_blank">
-                  <img className="sponsor" src={MSI} alt="msi" />
-                </a>
-              </Sponsor>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={12} md={4}>
-              <Sponsor>
-                <a href="https://www.oarsandalps.com/" target="_blank">
-                  <img
-                    className="sponsor"
-                    src={OarsAndAlps}
-                    alt="oars and alps"
-                  />
-                </a>
-              </Sponsor>
-            </Col>
-            <Col xs={12} md={4}>
-              <Sponsor>
-                <a href="https://www.zesttea.com/" target="_blank">
-                  <img className="sponsor" src={ZestTea} alt="zest tea" />
+                <a href="http://thedavidexperience.com/" target="_blank">
+                  <img className="sponsor" src={TheDavids} alt="davids" />
                 </a>
               </Sponsor>
             </Col>
@@ -111,6 +106,60 @@ export default class Sponsors extends Component {
             </Col>
           </Row>
           <Row>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="https://www.devry.edu/" target="_blank">
+                  <img className="sponsor" src={DeVry} alt="devry university" />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="https://www.monsterenergy.com/" target="_blank">
+                  <img
+                    className="sponsor"
+                    src={Monster}
+                    alt="monster"
+                  />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="https://www.drinkhint.com/" target="_blank">
+                  <img className="sponsor" src={Hint} alt="hint" />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="https://www.zesttea.com/" target="_blank">
+                  <img className="sponsor" src={ZestTea} alt="zest tea" />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="https://www.sujajuice.com/" target="_blank">
+                  <img className="sponsor" src={Suja} alt="suja" />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="https://www.oarsandalps.com/" target="_blank">
+                  <img
+                    className="sponsor"
+                    src={OarsAndAlps}
+                    alt="oars and alps"
+                  />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+            </Col>
+          </Row>
+          <Row>
             <Col xs={12} md={6}>
               <Sponsor>
                 <a href="https://www.badabeansnacks.com/" target="_blank">
@@ -118,23 +167,32 @@ export default class Sponsors extends Component {
                 </a>
               </Sponsor>
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={6} target="_blank">
               <Sponsor>
-                <a href="https://www.sujajuice.com/" target="_blank">
-                  <img className="sponsor" src={Suja} alt="suja" />
+                <a href="https://smashmallow.com/" target="_blank">
+                  <img className="sponsor" src={Smashmallow} alt="smashmallow" />
                 </a>
               </Sponsor>
+
             </Col>
           </Row>
+          <h1 className="sponsor-header">PARTNERS</h1>
           <Row>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="https://mlh.io/" target="_blank">
+                <img className="sponsor-wide" src={MLH} alt="mlh" />
+              </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
               <Sponsor>
                 <a href="https://www.asicsulb.org/corporate/" target="_blank">
-                  <img className="sponsor-wide" src={Asi} alt="  asi" />
+                  <img className="sponsor-wide" src={Asi} alt="asicsulb" />
                 </a>
               </Sponsor>
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={4}>
               <Sponsor>
                 <a
                   href="https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science"
