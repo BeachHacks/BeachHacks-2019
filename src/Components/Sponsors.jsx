@@ -181,8 +181,8 @@ export default class Sponsors extends Component {
             <Col xs={12} md={4}>
               <Sponsor>
                 <a href="https://mlh.io/" target="_blank">
-                <img className="sponsor-wide" src={MLH} alt="mlh" />
-              </a>
+                  <img className="sponsor-wide" src={MLH} alt="mlh" />
+                </a>
               </Sponsor>
             </Col>
             <Col xs={12} md={4}>

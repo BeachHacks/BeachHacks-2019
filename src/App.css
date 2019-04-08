@@ -68,6 +68,23 @@
   font-weight: 600;
   font-style: normal;
 }
+
+
+.date-button {
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.25rem 2.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  color: #fff;
+  background-color: transparent;
+  border: 0.3vh solid #fff;
+  transition: 0.25s ease-in-out;
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
 .reg{
   color: #0f2547;
   font-family: futura-pt, sans-serif;
@@ -309,6 +326,13 @@ a {
   font-family: "futura-pt-bold";
   color: #2475b9;
 }
+.schedule-header {
+  padding-top: 10vh;
+  margin-top:0px;
+  font-size: 3em;
+  font-family: "futura-pt-bold";
+  color: #ffffff;
+}
 
 .sponsor-body {
   font-family: futura-pt, sans-serif;
@@ -544,3 +568,44 @@ a.hover {
     float: right;
   }
 }
+
+
+.calendar{
+  margin-top:50px;
+  background-color:rgba(255,255,255,0.75);
+  border-radius:25px;
+}
+
+.rbc-time-view{
+  border: 0px !important;
+}
+
+.rbc-header{
+  font-size:24px !important;
+  height:fit-content !important;
+}
+
+.live-page{
+  background-color:#3c68a5;
+  width:100%;
+  height:219vh;
+  background-image:url("./Images/background-images/stingray-background.png");
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  background-position: bottom;
+}
+
+.rbc-header > a {
+  font-weight:600
+}
+
+.rbc-day-slot .rbc-event{
+  border: 1px solid white !important;
+}
+
+.rbc-day-slot .rbc-event-content {
+  flex: none !important;
+  width: fit-content !important ;
+  font-size: medium !important;
+}
+

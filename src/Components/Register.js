@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 // import { ReactTypeformEmbed } from 'react-typeform-embed';
 export default class Register extends Component {
   // openForm() {

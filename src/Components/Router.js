@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Route, BrowserRouter} from 'react-router-dom';
 import Home from './Home';
 import Register from './Register';
+import Live from './Live';
 
 
 // Route to the website, if our url = beachhacks.com, that routePath
@@ -16,7 +17,7 @@ export default class Router extends Component {
                 <div className="s-container">
                     {/* Default route (index.js) */}
                     <Route exact path={routePath + "/"} component ={Home}/>
-                    <Route exact path={routePath + "/register"} component ={Register}/>
+                    <Route exact path={routePath + "/live"} component ={Live}/>
 
                 </div>
             </BrowserRouter>
