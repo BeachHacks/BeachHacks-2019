@@ -5,6 +5,7 @@ import moment from 'moment';
 import { SatEvents, SunEvents } from './events';
 import TimeGrid from 'react-big-calendar/lib/TimeGrid';
 import { Grid, Row, Col } from 'react-bootstrap';
+import Navigation from './Navigation';
 import "../App.css"
 import "react-big-calendar/lib/css/react-big-calendar.css";
 
@@ -44,6 +45,7 @@ class MyCalendar extends Component {
     return (
 
       <div className="container">
+      <Navigation/>
         <BigCalendar
           className="reg calendar"
           localizer={localizer}
@@ -51,7 +53,7 @@ class MyCalendar extends Component {
           defaultView="week"
           views={{ week: BeachHacksWeek }}
           events={this.props.events}
-          style={{ height: "50vh", fontSize: "18px" }}
+          style={{ height: "100vh", fontSize: "18px" }}
           defaultDate={new Date(2019, 4, 20, 12, 0, 0)}
           min={this.props.min}
           showMultiDayTimes

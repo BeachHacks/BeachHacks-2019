@@ -327,7 +327,7 @@ a {
   color: #2475b9;
 }
 .schedule-header {
-  padding-top: 10vh;
+  padding-top: 15vh;
   margin-top:0px;
   font-size: 3em;
   font-family: "futura-pt-bold";
@@ -588,7 +588,7 @@ a.hover {
 .live-page{
   background-color:#3c68a5;
   width:100%;
-  height:219vh;
+  height:319vh;
   background-image:url("./Images/background-images/stingray-background.png");
   background-repeat:no-repeat;
   background-size:100% auto;
@@ -606,6 +606,6 @@ a.hover {
 .rbc-day-slot .rbc-event-content {
   flex: none !important;
   width: fit-content !important ;
-  font-size: medium !important;
+  font-size: large !important;
 }
 
