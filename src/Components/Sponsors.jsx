@@ -25,6 +25,7 @@ import MLH from "../Images/Sponsors/mlh.png";
 import TheDavids from "../Images/Sponsors/thedavids.png";
 import ElGato from "../Images/Sponsors/elgato.png";
 import Bing from "../Images/Sponsors/bing.png";
+import Discord from "../Images/Sponsors/discord.png";
 
 export default class Sponsors extends Component {
   render() {
@@ -94,11 +95,20 @@ export default class Sponsors extends Component {
             </Col>
             <Col xs={12} md={4}>
               <Sponsor>
+                <a href="https://discordapp.com/" target="_blank">
+                  <img className="sponsor" src={Discord} alt="discord" />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
                 <a href="https://www.heroku.com/" target="_blank">
                   <img className="sponsor" src={Heroku} alt="heroku" />
                 </a>
               </Sponsor>
             </Col>
+          </Row>
+          <Row>
             <Col xs={12} md={4}>
               <Sponsor>
                 <a href="http://thedavidexperience.com/" target="_blank">
@@ -106,8 +116,6 @@ export default class Sponsors extends Component {
                 </a>
               </Sponsor>
             </Col>
-          </Row>
-          <Row>
             <Col xs={12} md={4}>
               <Sponsor>
                 <a
@@ -150,6 +158,8 @@ export default class Sponsors extends Component {
                 </a>
               </Sponsor>
             </Col>
+          </Row>
+          <Row>
             <Col xs={12} md={4}>
               <Sponsor>
                 <a href="https://www.sujajuice.com/" target="_blank">
@@ -157,16 +167,14 @@ export default class Sponsors extends Component {
                 </a>
               </Sponsor>
             </Col>
-          </Row>
-          <Row>
-          <Col xs={12} md={6}>
+            <Col xs={12} md={4}>
               <Sponsor>
                 <a href="https://www.bingbeverage.com/" target="_blank">
                   <img className="sponsor" src={Bing} alt="bing" />
                 </a>
               </Sponsor>
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={4}>
               <Sponsor>
                 <a href="https://www.oarsandalps.com/" target="_blank">
                   <img
