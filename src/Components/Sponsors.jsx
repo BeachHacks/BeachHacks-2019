@@ -26,6 +26,10 @@ import TheDavids from "../Images/Sponsors/thedavids.png";
 import ElGato from "../Images/Sponsors/elgato.png";
 import Bing from "../Images/Sponsors/bing.png";
 import Discord from "../Images/Sponsors/discord.png";
+import IEEE from "../Images/Sponsors/ieee.png";
+import VGDA from "../Images/Sponsors/vgda.png";
+import Taali from "../Images/Sponsors/taali.png";
+import CSULBEsports from "../Images/Sponsors/csulbesports.png";
 
 export default class Sponsors extends Component {
   render() {
@@ -185,7 +189,7 @@ export default class Sponsors extends Component {
                 </a>
               </Sponsor>
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={4}>
               <Sponsor>
                 <a href="https://www.badabeansnacks.com/" target="_blank">
                   <img
@@ -196,7 +200,14 @@ export default class Sponsors extends Component {
                 </a>
               </Sponsor>
             </Col>
-            <Col xs={12} md={6} target="_blank">
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="https://www.taalifoods.com/" target="_blank">
+                  <img className="sponsor" src={Taali} alt="taali"/>
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4} target="_blank">
               <Sponsor>
                 <a href="https://smashmallow.com/" target="_blank">
                   <img
@@ -231,6 +242,38 @@ export default class Sponsors extends Component {
                   target="_blank"
                 >
                   <img className="sponsor-wide" src={CECS} alt="CECS" />
+                </a>
+              </Sponsor>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a
+                  href="http://ewh.ieee.org/sb/csulb/"
+                  target="_blank"
+                >
+                  <img className="sponsor-wide" src={IEEE} alt="IEEE" />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a
+                  href="http://www.csulbesports.org/"
+                  target="_blank"
+                >
+                  <img className="sponsor-wide" src={CSULBEsports} alt="csulb esports" />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a
+                  href="https://csulbvgda.com/index.html"
+                  target="_blank"
+                >
+                  <img className="sponsor-wide" src={VGDA} alt="VGDA" />
                 </a>
               </Sponsor>
             </Col>

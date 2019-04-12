@@ -27,13 +27,13 @@ export const SatEvents = [
   {
     start: new Date(2019, 4, 20, 17, 0, 0),
     end: new Date(2019, 4, 20, 17, 50, 0),
-    title: "Google Cloud Platform Workshop",
+    title: "Northrop Grumman's Warp 9 Rapid Software Development Workshop",
     color: "#0e5b8d"
   },
   {
     start: new Date(2019, 4, 20, 18, 0, 0),
     end: new Date(2019, 4, 20, 18, 50, 0),
-    title: "Northrop Grumman Hardware Workshop",
+    title: "Google Cloud Platform Workshop",
     color: "#0e5b8d"
   },
   {
