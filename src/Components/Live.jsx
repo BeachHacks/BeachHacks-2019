@@ -4,10 +4,13 @@ import dates from 'date-arithmetic';
 import moment from 'moment';
 import { SatEvents, SunEvents } from './events';
 import TimeGrid from 'react-big-calendar/lib/TimeGrid';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Grid, Row, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
 import Navigation from './Navigation';
 import "../App.css"
 import "react-big-calendar/lib/css/react-big-calendar.css";
+import DiscordLogo from "../Images/icons/Discord-Logo-Color.png";
+import DevpostLogo from "../Images/icons/Devpost-Logo.png";
+import MLHLogo from "../Images/icons/MLH-Logo.png";
 
 const localizer = BigCalendar.momentLocalizer(moment);
 
@@ -45,7 +48,7 @@ class MyCalendar extends Component {
     return (
 
       <div className="container">
-      <Navigation/>
+        <Navigation />
         <BigCalendar
           className="reg calendar"
           localizer={localizer}
@@ -88,7 +91,7 @@ export default class Live extends Component {
 
   handleSunday() {
     if (this.state.events !== SunEvents)
-      this.setState({ events: SunEvents, min:SunMin })
+      this.setState({ events: SunEvents, min: SunMin })
   }
 
   render() {
@@ -107,6 +110,59 @@ export default class Live extends Component {
         </Grid>
 
         <MyCalendar events={this.state.events} min={this.state.min} />
+
+        <div id="links">
+          <Grid>
+            <Row>
+              <Col xs={12} sm={4}>
+                <h3 className="schedule-header">LINKS</h3>
+                <ListGroup>
+                  <ListGroupItem>
+                    <Row>
+                      <a href="/discord" target="_blank">
+                        <Col xs={4}>
+                          <img className="item-img" src={DiscordLogo} style={{ width: "100%" }} alt="Discord" />
+                        </Col>
+                      </a>
+                      <Col xs={8}>
+                        <p className="item-header">Discord</p>
+                        <p className="item-text">Join our Discord for event news, live updates, and mentor help!</p>
+                      </Col>
+                    </Row>
+                  </ListGroupItem>
+                  <ListGroupItem>
+                    <Row>
+                      <a href="https://beachhacks.devpost.com/" target="_blank">
+                        <Col xs={4}>
+                          <img className="item-img" src={DevpostLogo} style={{ width: "100%" }} alt="Discord" />
+                        </Col>
+                      </a>
+                      <Col xs={8}>
+                        <p className="item-header">Devpost</p>
+                        <p className="item-text">Submit your project to Devpost to participate and demo at BeachHacks!</p>
+                      </Col>
+                    </Row>
+                  </ListGroupItem>
+                  <ListGroupItem>
+                    <Row>
+                      <a href="https://hack.mlh.io/learn/" target="_blank">
+                        <Col xs={4}>
+                          <img className="item-img" src={MLHLogo} style={{ width: "100%" }} alt="Discord" />
+                        </Col>
+                      </a>
+                      <Col xs={8}>
+                        <p className="item-header">MLH</p>
+                        <p className="item-text">Submit your project to Devpost to participate and demo at BeachHacks!</p>
+                      </Col>
+                    </Row>
+                  </ListGroupItem>
+                </ListGroup>
+              </Col>
+            </Row>
+          </Grid>
+
+        </div>
+
       </div>
     )
   }
