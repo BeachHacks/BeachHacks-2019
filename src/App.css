@@ -609,3 +609,34 @@ a.hover {
   font-size: large !important;
 }
 
+
+#links{
+  margin-top:25px;
+}
+
+#links .item-header{
+  color:#000000;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-align:left;
+  font-size:24px;
+}
+
+#links .item-text{
+  color:#000000;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  text-align:left;
+  font-size:16px;
+}
+
+#links .item-img{
+  margin-top: 15px;
+  margin-left:5px;
+}
+
+#links .list-group-item{
+  background-color: rgba(255, 255, 255, 0.75);
+}
