@@ -87,8 +87,8 @@
 }
 .reg{
   color: #0f2547;
-  font-family: futura-pt, sans-serif;
-  font-weight: 600;
+  font-family: 'futura-pt', sans-serif;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -588,12 +588,15 @@ a.hover {
 .live-page{
   background-color:#3c68a5;
   width:100%;
-  height:319vh;
+  height:500vh;
   background-image:url("./Images/background-images/stingray-background.png");
   background-repeat:no-repeat;
   background-size:100% auto;
+  background-color: #3c68a5;
   background-position: bottom;
 }
+
+/* @media screen and (max-width:78) */
 
 .rbc-header > a {
   font-weight:600
@@ -616,18 +619,15 @@ a.hover {
 
 #links .item-header{
   color:#000000;
-  font-family: futura-pt, sans-serif;
-  font-style: normal;
-  font-weight: 600;
+  font-family: 'futura-pt', sans-serif;
+  font-weight:600;
   text-align:left;
   font-size:24px;
 }
 
 #links .item-text{
   color:#000000;
-  font-family: futura-pt, sans-serif;
-  font-style: normal;
-  font-weight: 600;
+  font-family: 'futura-pt', sans-serif;
   text-align:left;
   font-size:16px;
 }
@@ -639,4 +639,65 @@ a.hover {
 
 #links .list-group-item{
   background-color: rgba(255, 255, 255, 0.75);
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
+.futura{
+  font-family: 'futura-pt', sans-serif;
+  font-weight:300;
+  text-align:left;
+}
+
+.list-view{
+  width:85%;
+  margin:auto;
+  margin-top:25px;
+}
+
+.parking-map{
+  border: 5px #ffffff;
+  border-radius:10px;
+}
+
+#schedule .list-group-item{
+  border-radius:20px;
+}
+
+#schedule .list-group-item:first-child{
+  border-radius:20px;
+}
+
+#schedule .list-group-item:last-child{
+  border-radius:20px;
+}
+
+#schedule .list-group-item{
+  border:none;
+  margin-bottom:10px;
+}
+
+.futura-thick{
+  font-family: 'futura-pt', sans-serif;
+  font-weight:600;
+  text-align:left;
+  font-size:24px;
+}
+
+.rubik{
+  font-family: 'Rubik', sans-serif;
+}
+
+.legend-block{
+  border-radius:20px;
+  border: 3px solid;
+  border-color: #ffffff;
+  margin:5px;
+  position:relative;
 }

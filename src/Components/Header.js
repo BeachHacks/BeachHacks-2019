@@ -17,21 +17,11 @@ class Header extends Component {
               className="beachhacks-image"
             />
             <Register>
-              <a href="https://beachhacks.typeform.com/to/LGUC4U">
-                <button className="apply-button">REGISTER</button>
+              <a href="/live">
+                <button className="apply-button">LIVE</button>
               </a>
             </Register>
-            <Register>
-              <a href="https://beachhacks.typeform.com/to/zb7hax">
-                <button className="apply-button">VOLUNTEER</button>
-              </a>
-            </Register>
-            <Register>
-              <a href="https://beachhacks.typeform.com/to/mKzdz2">
-                <button className="apply-button">MENTOR</button>
-              </a>
-            </Register><br/>
-            <p className="reg">REGISTRATION DEADLINE  <br />EXTENDED TO APRIL 12TH</p>
+            <br/>
           </div>
           {/* <div className="clouds">
             <img src={Cloud1} alt="Cloud1" className="cloud1" />

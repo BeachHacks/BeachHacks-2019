@@ -1,17 +1,16 @@
 import React, { Component } from "react";
 import { Navbar, Nav, NavItem } from "react-bootstrap";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import Register from "./Register";
 import Walter from "./Walter";
 
-class Navigation extends Component {
+class LiveNav extends Component {
   render() {
     return (
       <div>
         <Navbar collapseOnSelect fixedTop>
           <Navbar.Header>
             <Navbar.Brand>
-              <AnchorLink href="#header" className="item-logo">
+              <AnchorLink href="/" className="item-logo">
                 <Walter />
               </AnchorLink>
             </Navbar.Brand>
@@ -19,27 +18,23 @@ class Navigation extends Component {
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight>
-              <NavItem className="item" eventKey={0}>
-                <AnchorLink offset="125" href="#info">
-                  <p>ABOUT</p>
-                </AnchorLink>
-              </NavItem>
               <NavItem className="item" eventKey={1}>
-                <AnchorLink offset="180" href="#faq">
-                  <p>FAQ</p>
+                <AnchorLink offset="25" href="#schedule">
+                  <p>SCHEDULE</p>
                 </AnchorLink>
               </NavItem>
-              <NavItem className="item" eventKey={2}>
-                <AnchorLink offset="85" href="#sponsors">
-                  <p>SPONSORS</p>
+              <NavItem className="item" eventKey={0}>
+                <AnchorLink offset="125" href="#links">
+                  <p>LINKS & MAP</p>
                 </AnchorLink>
               </NavItem>
-              <NavItem
-                className="item"
-                eventKey={3}
-                href="/live"
-              >
-                REGISTER
+              <NavItem className="item" eventKey={0}>
+                <AnchorLink offset="125" href="#links">
+                  <p>INFO</p>
+                </AnchorLink>
+              </NavItem>
+              <NavItem className="item" eventKey={2} href="/discord">
+                  <p>DISCORD</p>
               </NavItem>
             </Nav>
           </Navbar.Collapse>
@@ -58,4 +53,4 @@ class Navigation extends Component {
   }
 }
 
-export default Navigation;
+export default LiveNav;
