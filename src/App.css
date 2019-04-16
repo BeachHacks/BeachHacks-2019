@@ -588,7 +588,7 @@ a.hover {
 .live-page{
   background-color:#3c68a5;
   width:100%;
-  height:500vh;
+
   background-image:url("./Images/background-images/stingray-background.png");
   background-repeat:no-repeat;
   background-size:100% auto;
@@ -596,7 +596,25 @@ a.hover {
   background-position: bottom;
 }
 
-/* @media screen and (max-width:78) */
+
+@media screen and (min-width:425px){
+  .live-page{
+      height:450vh;
+  }
+}
+
+@media screen and (min-width:768px){
+  .live-page{
+      height:600vh;
+  }
+}
+
+@media screen and (min-width:1024px){
+  .live-page{
+    height:370vh;
+  }
+}
+
 
 .rbc-header > a {
   font-weight:600
@@ -687,7 +705,6 @@ a.hover {
   font-family: 'futura-pt', sans-serif;
   font-weight:600;
   text-align:left;
-  font-size:24px;
 }
 
 .rubik{

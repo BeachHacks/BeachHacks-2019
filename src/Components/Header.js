@@ -18,7 +18,7 @@ class Header extends Component {
             />
             <Register>
               <a href="/live">
-                <button className="apply-button">LIVE</button>
+                <button className="apply-button">WE ARE LIVE</button>
               </a>
             </Register>
             <br/>

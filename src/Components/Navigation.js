@@ -11,9 +11,9 @@ class Navigation extends Component {
         <Navbar collapseOnSelect fixedTop>
           <Navbar.Header>
             <Navbar.Brand>
-              <AnchorLink href="#header" className="item-logo">
+              <a href="/" className="item-logo">
                 <Walter />
-              </AnchorLink>
+              </a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
@@ -39,7 +39,7 @@ class Navigation extends Component {
                 eventKey={3}
                 href="/live"
               >
-                REGISTER
+                LIVE
               </NavItem>
             </Nav>
           </Navbar.Collapse>

@@ -6,7 +6,6 @@ import { SatEvents, SunEvents } from "./events";
 import TimeGrid from "react-big-calendar/lib/TimeGrid";
 import { Grid, Row, Col, ListGroup, ListGroupItem } from "react-bootstrap";
 import ListCalendar from "./ListCalendar";
-import Navigation from "./Navigation";
 import LiveNav from "./LiveNav";
 import "../App.css";
 import "react-big-calendar/lib/css/react-big-calendar.css";
@@ -331,7 +330,7 @@ export default class Live extends Component {
               </Col>
             </Row>
             <Row>
-              <Col xs={12}>
+              <Col xs={12} id="parking-info">
                 <h3 className="schedule-header">PARKING INFO</h3>
                 <ListGroupItem>
                   <p

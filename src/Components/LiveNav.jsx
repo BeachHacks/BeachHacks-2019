@@ -10,9 +10,9 @@ class LiveNav extends Component {
         <Navbar collapseOnSelect fixedTop>
           <Navbar.Header>
             <Navbar.Brand>
-              <AnchorLink href="/" className="item-logo">
+              <a href="/" className="item-logo">
                 <Walter />
-              </AnchorLink>
+              </a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
@@ -29,7 +29,7 @@ class LiveNav extends Component {
                 </AnchorLink>
               </NavItem>
               <NavItem className="item" eventKey={0}>
-                <AnchorLink offset="125" href="#links">
+                <AnchorLink offset="125" href="#parking-info">
                   <p>INFO</p>
                 </AnchorLink>
               </NavItem>

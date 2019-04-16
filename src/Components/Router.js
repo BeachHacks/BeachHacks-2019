@@ -18,7 +18,7 @@ export default class Router extends Component {
           <Route
             exact
             path={routePath + "/discord"}
-            component= { () => {window.location = "https://discord.gg/mNwYZaQ"}}
+            component={() => { window.location = "https://discordapp.com/invite/eaYvcu7"}}
           />
         </div>
       </BrowserRouter>
