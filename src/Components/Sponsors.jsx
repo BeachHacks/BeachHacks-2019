@@ -29,6 +29,8 @@ import Discord from "../Images/Sponsors/discord.png";
 import IEEE from "../Images/Sponsors/ieee.png";
 import VGDA from "../Images/Sponsors/vgda.png";
 import Taali from "../Images/Sponsors/taali.png";
+import TasteNirvana from "../Images/Sponsors/taste nirvana.png";
+import SweetJills from "../Images/Sponsors/sweetjills.png";
 import CSULBEsports from "../Images/Sponsors/csulbesports.png";
 
 export default class Sponsors extends Component {
@@ -218,6 +220,29 @@ export default class Sponsors extends Component {
                 </a>
               </Sponsor>
             </Col>
+            <Col xs={12} md={6} target="_blank">
+              <Sponsor>
+                <a href="http://sweetjillsbakery.com/" target="_blank">
+                  <img
+                    className="sponsor"
+                    src={SweetJills}
+                    alt="sweet jills"
+                  />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={6} target="_blank">
+              <Sponsor>
+                <a href="https://www.tastenirvana.com/" target="_blank">
+                  <img
+                    className="sponsor"
+                    src={TasteNirvana}
+                    alt="taste nirvana"
+                  />
+                </a>
+              </Sponsor>
+            </Col>
+            
           </Row>
           <h1 className="sponsor-header">PARTNERS</h1>
           <Row>
