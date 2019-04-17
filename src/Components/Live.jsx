@@ -275,7 +275,7 @@ export default class Live extends Component {
                         </Col>
                       </a>
                       <Col xs={8}>
-                        <p className="item-header">TWITTER</p>
+                        <p className="item-header">FACEBOOK</p>
                         <p className="item-text">
                           Like our Facebook page for BeachHacks news and future
                           updates!
