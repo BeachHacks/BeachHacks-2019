@@ -1,11 +1,26 @@
 
 export const SatEvents = [
   {
-    start: new Date(2019, 4, 20, 12, 30, 0),
-    end: new Date(2019, 4, 20, 14, 0, 0),
-    title: "Doors Open and Check-In Begins",
-    color: "#6a9fc0"
+    start: new Date(2019, 4,20,12,0,0),
+    end: new Date(2019,4,20,12,30,0),
+    title:"RSVP Pre-Check In", 
+    color: "#6a9fc0",
+    size:"small"
   },
+  {
+    start: new Date(2019, 4,20,12,30,0),
+    end: new Date(2019, 4,20,13,30,0),
+    title:"RSVP Check In",
+    color:"#6a9fc0"
+  },
+  {
+    start: new Date(2019, 4,20,13,30,0),
+    end: new Date(2019, 4,20,14,0,0),
+    title:"Walk-In Check In",
+    color:"#6a9fc0",
+    size:"small"
+  },
+
   {
     start: new Date(2019, 4, 20, 14, 0, 0),
     end: new Date(2019, 4, 20, 15, 0, 0),
@@ -14,70 +29,67 @@ export const SatEvents = [
   },
   {
     start: new Date(2019, 4, 20, 15, 0, 0),
-    end: new Date(2019, 4, 20, 15, 20, 0),
+    end: new Date(2019, 4, 20, 15, 50, 0),
     title: "Team Formation",
     color: "#9c63b4"
   },
   {
     start: new Date(2019, 4, 20, 16, 0, 0),
     end: new Date(2019, 4, 20, 16, 50, 0),
-    title: "Intro to Hackathon Workshop",
+    title: "Google Cloud Platform Workshop",
     color: "#0e5b8d"
   },
   {
     start: new Date(2019, 4, 20, 17, 0, 0),
     end: new Date(2019, 4, 20, 17, 50, 0),
-    title: "Northrop Grumman's Warp 9 Rapid Software Development Workshop",
-    color: "#0e5b8d"
+    title: "Northrop Grumman Accelerator Lab for Modern Software Development",
+    color: "#0e5b8d",
+    width: "50%",
+    left: "0%"
+
   },
   {
-    start: new Date(2019, 4, 20, 18, 0, 0),
+    start: new Date(2019, 4, 20, 17, 0, 0),
     end: new Date(2019, 4, 20, 18, 50, 0),
-    title: "Google Cloud Platform Workshop",
-    color: "#0e5b8d"
+    title: "Intro to Unity Game Engine presented by VGDA",
+    color: "#0e5b8d",
+    width: "50%",
+    left: "50%"
   },
   {
     start: new Date(2019, 4, 20, 19, 0, 0),
-    end: new Date(2019, 4, 20, 19, 45, 0),
+    end: new Date(2019, 4, 20, 20,0, 0),
     title: "Dinner",
     color: "#84c3ab"
   },
+
   {
     start: new Date(2019, 4, 20, 20, 0, 0),
     end: new Date(2019, 4, 20, 20, 50, 0),
-    title: "Machine Learning Workshop",
+    title: "Artificial Intelligence Workshop",
     color: "#0e5b8d"
   },
   {
-    start: new Date(2019, 4, 20, 20, 30, 0),
-    end: new Date(2019, 4, 20, 21, 0, 0),
-    title: "MLH Cupstacking Event",
-    color: "#9c63b4"
+    start: new Date(2019, 4, 20, 20, 0, 0),
+    end: new Date(2019, 4, 20, 21, 50, 0),
+    title: "Intro to Version Control with Github and SourceTree presented by VGDA",
+    color: "#0e5b8d",
+    width: "50%"
   },
   {
     start: new Date(2019, 4, 20, 21, 0, 0),
     end: new Date(2019, 4, 20, 21, 50, 0),
-    title: "Web Development Workshop",
+    title: "Intro to Arduino presented by IEEE",
     color: "#0e5b8d"
   },
   {
-    start: new Date(2019, 4, 20, 21, 30, 0),
-    end: new Date(2019, 4, 20, 22, 0, 0),
-    title: "Food for Thought Snack",
-    color: "#84c3ab"
-  },
-  {
-    start: new Date(2019, 4, 20, 22, 0, 0),
+    start: new Date(2019, 4, 20, 22, 30, 0),
     end: new Date(2019, 4, 20, 23, 0, 0),
-    title: "VGDA Game Expo",
-    color: "#9c63b4"
+    title: "MLH Cupstacking Event",
+    color: "#9c63b4",
+    size:"small"
   },
-  {
-    start: new Date(2019, 4, 20, 23, 30, 0),
-    end: new Date(2019, 4, 20, 23, 59, 0),
-    title: "Activity 4",
-    color: "#9c63b4"
-  }
+
 ]
 
 export const SunEvents = [
@@ -90,20 +102,28 @@ export const SunEvents = [
   {
     start: new Date(2019, 4, 20, 3, 0, 0),
     end: new Date(2019, 4, 20, 4, 0, 0),
-    title: "Easter Egg Hunt",
+    title: "Beach Dodge Ball Tournament",
     color: "#9c63b4"
   },
   {
-    start: new Date(2019, 4, 20, 3, 30, 0),
-    end: new Date(2019, 4, 20, 4, 0, 0),
+    start: new Date(2019, 4, 20, 4, 0, 0),
+    end: new Date(2019, 4, 20, 4, 30, 0),
     title: "Food for Thought Snack",
-    color: "#84c3ab"
+    color: "#84c3ab",
+    size:"small"
   },
   {
-    start: new Date(2019, 4, 20, 5, 30, 0),
+    start: new Date(2019, 4, 20, 5, 0, 0),
     end: new Date(2019, 4, 20, 6, 0, 0),
+    title: "Ellie the Jelly's Super Secret Activity",
+    color: "#9c63b4"
+  },
+  {
+    start: new Date(2019, 4, 20, 6, 0, 0),
+    end: new Date(2019, 4, 20, 6, 30, 0),
     title: "Food for Thought Snack",
-    color: "#84c3ab"
+    color: "#84c3ab",
+    size:"small"
   },
   {
     start: new Date(2019, 4, 20, 7, 0, 0),
@@ -116,12 +136,6 @@ export const SunEvents = [
     end: new Date(2019, 4, 20, 9, 0, 0),
     title: "Breakfast",
     color: "#84c3ab"
-  },
-  {
-    start: new Date(2019, 4, 20, 10, 0, 0),
-    end: new Date(2019, 4, 20, 11, 0, 0),
-    title: "Activity 5",
-    color: "#9c63b4"
   },
   {
     start: new Date(2019, 4, 20, 11, 0, 0),
@@ -139,19 +153,22 @@ export const SunEvents = [
     start: new Date(2019, 4, 20, 14, 0, 0),
     end: new Date(2019, 4, 20, 14, 0, 0),
     title: "Devpost Submissions Due",
-    color: "#6a9fc0"
+    color: "#6a9fc0",
+    size:"small"
   },
   {
     start: new Date(2019, 4, 20, 15, 0, 0),
     end: new Date(2019, 4, 20, 15, 15, 0),
     title: "Hacking Ends",
-    color: "#6a9fc0"
+    color: "#6a9fc0",
+    size:"small"
   },
   {
     start: new Date(2019, 4, 20, 15, 15, 0),
     end: new Date(2019, 4, 20, 15, 30, 0),
     title: "Demo Schedule Annoucement",
-    color: "#6a9fc0"
+    color: "#6a9fc0",
+    size:"small"
   },
   {
     start: new Date(2019, 4, 20, 15, 30, 0),

@@ -386,8 +386,20 @@ a.hover {
   padding: 10px;
   /*margin-top:2px;*/
   font-family: futura-pt, sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
+}
+
+.item-live {
+  padding: 10px;
+  /*margin-top:2px;*/
+  font-family: futura-pt, sans-serif;
+  font-weight:600;
+  font-style: normal;
+}
+
+.item-live a{
+  font-weight:600;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -717,4 +729,20 @@ a.hover {
   border-color: #ffffff;
   margin:5px;
   position:relative;
+}
+
+.event-left{
+  left:0% !important;
+}
+
+.event-right{
+  left:50% !important;
+}
+
+.event-small{
+  height:auto !important;
+}
+
+.rbc-event-content{
+  height:auto !important;
 }

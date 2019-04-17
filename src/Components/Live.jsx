@@ -57,13 +57,22 @@ class MyCalendar extends Component {
           defaultDate={new Date(2019, 4, 20, 12, 0, 0)}
           min={this.props.min}
           showMultiDayTimes
-          popup
           timeslots={1}
-          eventPropGetter={event => ({
+          eventPropGetter={event => (
+            event.width === "50%" ? { 
             style: {
-              backgroundColor: event.color
-            }
-          })}
+              backgroundColor: event.color,
+              maxWidth: event.width
+            },
+            className: (event.left === "0%" ? "event-left" : "event-right") + (event.size==="small" ? "event-small" : "")
+          }:
+            {style:{
+              backgroundColor: event.color,
+              maxWidth: event.width,
+              
+            },
+            className:"event-left " + (event.size==="small" ? "event-small" : "")}
+          )}
         />
       </div>
     );

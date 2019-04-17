@@ -16,6 +16,9 @@ class Header extends Component {
               alt="BeachHacks April 20-21st"
               className="beachhacks-image"
             />
+            <br/>
+            <br/>
+            
             <Register>
               <a href="/live">
                 <button className="apply-button">WE ARE LIVE</button>

@@ -35,7 +35,7 @@ class Navigation extends Component {
                 </AnchorLink>
               </NavItem>
               <NavItem
-                className="item"
+                className="item-live"
                 eventKey={3}
                 href="/live"
               >
