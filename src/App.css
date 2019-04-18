@@ -611,19 +611,19 @@ a.hover {
 
 @media screen and (min-width:425px){
   .live-page{
-      height:450vh;
+      height:620vh;
   }
 }
 
 @media screen and (min-width:768px){
   .live-page{
-      height:600vh;
+      height:800vh;
   }
 }
 
 @media screen and (min-width:1024px){
   .live-page{
-    height:370vh;
+    height:500vh;
   }
 }
 

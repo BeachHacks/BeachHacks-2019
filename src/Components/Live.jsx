@@ -58,21 +58,27 @@ class MyCalendar extends Component {
           min={this.props.min}
           showMultiDayTimes
           timeslots={1}
-          eventPropGetter={event => (
-            event.width === "50%" ? { 
-            style: {
-              backgroundColor: event.color,
-              maxWidth: event.width
-            },
-            className: (event.left === "0%" ? "event-left" : "event-right") + (event.size==="small" ? "event-small" : "")
-          }:
-            {style:{
-              backgroundColor: event.color,
-              maxWidth: event.width,
-              
-            },
-            className:"event-left " + (event.size==="small" ? "event-small" : "")}
-          )}
+          eventPropGetter={event =>
+            event.width === "50%"
+              ? {
+                  style: {
+                    backgroundColor: event.color,
+                    maxWidth: event.width
+                  },
+                  className:
+                    (event.left === "0%" ? "event-left" : "event-right") +
+                    (event.size === "small" ? "event-small" : "")
+                }
+              : {
+                  style: {
+                    backgroundColor: event.color,
+                    maxWidth: event.width
+                  },
+                  className:
+                    "event-left " +
+                    (event.size === "small" ? "event-small" : "")
+                }
+          }
         />
       </div>
     );
@@ -150,7 +156,12 @@ export default class Live extends Component {
                       className="legend-block"
                       style={{ backgroundColor: "#6a9fc0" }}
                     >
-                      <p className="futura-thick" style={{textAlign:"center", margin:"0px"}}>MAIN EVENT</p>
+                      <p
+                        className="futura-thick"
+                        style={{ textAlign: "center", margin: "0px" }}
+                      >
+                        MAIN EVENT
+                      </p>
                     </div>
                   </Col>
                   <Col xs={6} className="container">
@@ -158,17 +169,27 @@ export default class Live extends Component {
                       className="legend-block"
                       style={{ backgroundColor: "#0e5b8d" }}
                     >
-                      <p className="futura-thick" style={{textAlign:"center", margin:"0px"}}>WORKSHOPS</p>
+                      <p
+                        className="futura-thick"
+                        style={{ textAlign: "center", margin: "0px" }}
+                      >
+                        WORKSHOPS
+                      </p>
                     </div>
                   </Col>
                 </Row>
                 <Row>
-                <Col xs={6} className="container">
+                  <Col xs={6} className="container">
                     <div
                       className="legend-block"
                       style={{ backgroundColor: "#9c63b4" }}
                     >
-                      <p className="futura-thick" style={{textAlign:"center", margin:"0px"}}>ACTIVITIES</p>
+                      <p
+                        className="futura-thick"
+                        style={{ textAlign: "center", margin: "0px" }}
+                      >
+                        ACTIVITIES
+                      </p>
                     </div>
                   </Col>
                   <Col xs={6} className="container">
@@ -176,7 +197,12 @@ export default class Live extends Component {
                       className="legend-block"
                       style={{ backgroundColor: "#84c3ab" }}
                     >
-                      <p className="futura-thick" style={{textAlign:"center", margin:"0px"}}>FOOD & SNACKS</p>
+                      <p
+                        className="futura-thick"
+                        style={{ textAlign: "center", margin: "0px" }}
+                      >
+                        FOOD & SNACKS
+                      </p>
                     </div>
                   </Col>
                 </Row>

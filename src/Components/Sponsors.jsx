@@ -32,6 +32,9 @@ import Taali from "../Images/Sponsors/taali.png";
 import TasteNirvana from "../Images/Sponsors/taste nirvana.png";
 import SweetJills from "../Images/Sponsors/sweetjills.png";
 import CSULBEsports from "../Images/Sponsors/csulbesports.png";
+import Balsamiq from "../Images/Sponsors/balsamiq.png";
+import Sketch from "../Images/Sponsors/sketch.png";
+import GoogleCloud from "../Images/Sponsors/googlecloudplatform.png";
 
 export default class Sponsors extends Component {
   render() {
@@ -46,14 +49,7 @@ export default class Sponsors extends Component {
             </a>
           </p>
           <Row>
-            <Col xs={12} md={6}>
-              <Sponsor>
-                <a href="https://www.google.com/" target="_blank">
-                  <img className="sponsor" src={Google} alt="google" />
-                </a>
-              </Sponsor>
-            </Col>
-            <Col xs={12} md={6}>
+          <Col xs={12} md={4}>
               <Sponsor>
                 <a
                   href="http://www.northropgrumman.com/Pages/default.aspx"
@@ -64,6 +60,21 @@ export default class Sponsors extends Component {
                     src={Northrop}
                     alt="northrp grumman"
                   />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="https://www.google.com/" target="_blank">
+                  <img className="sponsor" src={Google} alt="google" />
+                </a>
+              </Sponsor>
+            </Col>
+            
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="https://cloud.google.com/" target="_blank">
+                  <img className="sponsor" src={GoogleCloud} alt="google cloud platform"/>
                 </a>
               </Sponsor>
             </Col>
@@ -91,6 +102,7 @@ export default class Sponsors extends Component {
               </Sponsor>
             </Col>
           </Row>
+          <Row />
           <Row>
             <Col xs={12} md={4}>
               <Sponsor>
@@ -145,38 +157,15 @@ export default class Sponsors extends Component {
             </Col>
             <Col xs={12} md={4}>
               <Sponsor>
-                <a href="https://www.monsterenergy.com/" target="_blank">
-                  <img className="sponsor" src={Monster} alt="monster" />
+                <a href="https://www.sketch.com" target="_blank">
+                  <img className="sponsor" src={Sketch} alt="sketch" />
                 </a>
               </Sponsor>
             </Col>
             <Col xs={12} md={4}>
               <Sponsor>
-                <a href="https://www.drinkhint.com/" target="_blank">
-                  <img className="sponsor" src={Hint} alt="hint" />
-                </a>
-              </Sponsor>
-            </Col>
-            <Col xs={12} md={4}>
-              <Sponsor>
-                <a href="https://www.zesttea.com/" target="_blank">
-                  <img className="sponsor" src={ZestTea} alt="zest tea" />
-                </a>
-              </Sponsor>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={12} md={4}>
-              <Sponsor>
-                <a href="https://www.sujajuice.com/" target="_blank">
-                  <img className="sponsor" src={Suja} alt="suja" />
-                </a>
-              </Sponsor>
-            </Col>
-            <Col xs={12} md={4}>
-              <Sponsor>
-                <a href="https://www.bingbeverage.com/" target="_blank">
-                  <img className="sponsor" src={Bing} alt="bing" />
+                <a href="https://balsamiq.cloud/" target="_blank">
+                  <img className="sponsor" src={Balsamiq} alt="balsamiq"/>
                 </a>
               </Sponsor>
             </Col>
@@ -205,7 +194,7 @@ export default class Sponsors extends Component {
             <Col xs={12} md={4}>
               <Sponsor>
                 <a href="https://www.taalifoods.com/" target="_blank">
-                  <img className="sponsor" src={Taali} alt="taali"/>
+                  <img className="sponsor" src={Taali} alt="taali" />
                 </a>
               </Sponsor>
             </Col>
@@ -220,14 +209,47 @@ export default class Sponsors extends Component {
                 </a>
               </Sponsor>
             </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="https://www.monsterenergy.com/" target="_blank">
+                  <img className="sponsor" src={Monster} alt="monster" />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="https://www.drinkhint.com/" target="_blank">
+                  <img className="sponsor" src={Hint} alt="hint" />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="https://www.zesttea.com/" target="_blank">
+                  <img className="sponsor" src={ZestTea} alt="zest tea" />
+                </a>
+              </Sponsor>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12} md={6}>
+              <Sponsor>
+                <a href="https://www.sujajuice.com/" target="_blank">
+                  <img className="sponsor" src={Suja} alt="suja" />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={6}>
+              <Sponsor>
+                <a href="https://www.bingbeverage.com/" target="_blank">
+                  <img className="sponsor" src={Bing} alt="bing" />
+                </a>
+              </Sponsor>
+            </Col>
             <Col xs={12} md={6} target="_blank">
               <Sponsor>
                 <a href="http://sweetjillsbakery.com/" target="_blank">
-                  <img
-                    className="sponsor"
-                    src={SweetJills}
-                    alt="sweet jills"
-                  />
+                  <img className="sponsor" src={SweetJills} alt="sweet jills" />
                 </a>
               </Sponsor>
             </Col>
@@ -242,7 +264,6 @@ export default class Sponsors extends Component {
                 </a>
               </Sponsor>
             </Col>
-            
           </Row>
           <h1 className="sponsor-header">PARTNERS</h1>
           <Row>
@@ -274,30 +295,25 @@ export default class Sponsors extends Component {
           <Row>
             <Col xs={12} md={4}>
               <Sponsor>
-                <a
-                  href="http://ewh.ieee.org/sb/csulb/"
-                  target="_blank"
-                >
+                <a href="http://ewh.ieee.org/sb/csulb/" target="_blank">
                   <img className="sponsor-wide" src={IEEE} alt="IEEE" />
                 </a>
               </Sponsor>
             </Col>
             <Col xs={12} md={4}>
               <Sponsor>
-                <a
-                  href="http://www.csulbesports.org/"
-                  target="_blank"
-                >
-                  <img className="sponsor-wide" src={CSULBEsports} alt="csulb esports" />
+                <a href="http://www.csulbesports.org/" target="_blank">
+                  <img
+                    className="sponsor-wide"
+                    src={CSULBEsports}
+                    alt="csulb esports"
+                  />
                 </a>
               </Sponsor>
             </Col>
             <Col xs={12} md={4}>
               <Sponsor>
-                <a
-                  href="https://csulbvgda.com/index.html"
-                  target="_blank"
-                >
+                <a href="https://csulbvgda.com/index.html" target="_blank">
                   <img className="sponsor-wide" src={VGDA} alt="VGDA" />
                 </a>
               </Sponsor>
