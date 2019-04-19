@@ -256,10 +256,9 @@ export default class Live extends Component {
                         </Col>
                       </a>
                       <Col xs={8}>
-                        <p className="item-header">DEVPOST</p>
+                        <p className="item-header" >DEVPOST</p>
                         <p className="item-text">
-                          Submit your project to Devpost to participate and demo
-                          at BeachHacks!
+                          View our prizes and submit your projects at our Devpost!
                         </p>
                       </Col>
                     </Row>
@@ -279,7 +278,7 @@ export default class Live extends Component {
                       <Col xs={8}>
                         <p className="item-header">MLH HACK PACK</p>
                         <p className="item-text">
-                          Find resources and tutorials for your hackathon
+                          Find resources and tutorials for your
                           project, courtesy of MLH.
                         </p>
                       </Col>
@@ -300,17 +299,6 @@ export default class Live extends Component {
                           />
                         </Col>
                       </a>
-                      <Col xs={8}>
-                        <p className="item-header">FACEBOOK</p>
-                        <p className="item-text">
-                          Like our Facebook page for BeachHacks news and future
-                          updates!
-                        </p>
-                      </Col>
-                    </Row>
-                  </ListGroupItem>
-                  <ListGroupItem>
-                    <Row>
                       <a
                         href="https://www.instagram.com/beachhackscsulb/"
                         target="_blank"
@@ -324,16 +312,6 @@ export default class Live extends Component {
                           />
                         </Col>
                       </a>
-                      <Col xs={8}>
-                        <p className="item-header">INSTAGRAM</p>
-                        <p className="item-text">
-                          Follow us on Instagram to stay up to date with us!
-                        </p>
-                      </Col>
-                    </Row>
-                  </ListGroupItem>
-                  <ListGroupItem>
-                    <Row>
                       <a
                         href="https://twitter.com/beachhackscsulb"
                         target="_blank"
@@ -347,14 +325,9 @@ export default class Live extends Component {
                           />
                         </Col>
                       </a>
-                      <Col xs={8}>
-                        <p className="item-header">TWITTER</p>
-                        <p className="item-text">
-                          Follow our Twitter for live updates!
-                        </p>
-                      </Col>
                     </Row>
                   </ListGroupItem>
+                  
                 </ListGroup>
               </Col>
               <Col xs={12} md={8}>
@@ -381,7 +354,7 @@ export default class Live extends Component {
                     at a rate of $9 a day and $18 for the entirety of our event.
                   </p>
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3316.1483715824743!2d-118.11888778518598!3d33.78266648933614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x80dd31dba16bd141%3A0x5c31edfc7cf57e07!2sG2%2C+Long+Beach%2C+CA!3m2!1d33.7838816!2d-118.1207755!4m5!1s0x80dd31db1fa57aad%3A0xc8ff9bfd14922f0a!2sCSULB+University+Student+Union%2C+1250+N+Bellflower+Blvd%2C+Long+Beach%2C+CA+90840!3m2!1d33.781376699999996!2d-118.1134665!5e0!3m2!1sen!2sus!4v1555382456001!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d1658.1099813815092!2d-118.11556143376247!3d33.7808175179092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x80dd31d783e97cd1%3A0x6a4cd0f3c5288647!2sE11%2C+Long+Beach%2C+CA+90815!3m2!1d33.7808771!2d-118.114908!4m5!1s0x80dd31db1fa57aad%3A0xc8ff9bfd14922f0a!2sCSULB+University+Student+Union%2C+North+Bellflower+Boulevard%2C+Long+Beach%2C+CA!3m2!1d33.781376699999996!2d-118.1134665!5e0!3m2!1sen!2sus!4v1555579558865!5m2!1sen!2sus"
                     style={{ width: "100%" }}
                     height="400"
                     className="parking-map"
