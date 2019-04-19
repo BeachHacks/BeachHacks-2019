@@ -376,9 +376,9 @@ export default class Live extends Component {
                       color: "#000000"
                     }}
                   >
-                    Parking for our attendees is available in lots G2 and E11.
-                    Daily parking passes can be purchased for $9 and can be paid
-                    at the parking kiosks.{" "}
+                    Parking is available in Lot E11, with overflow parking in
+                    Lot G2. Daily parking passes can be purchased at the kiosks
+                    at a rate of $9 a day and $18 for the entirety of our event.
                   </p>
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3316.1483715824743!2d-118.11888778518598!3d33.78266648933614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x80dd31dba16bd141%3A0x5c31edfc7cf57e07!2sG2%2C+Long+Beach%2C+CA!3m2!1d33.7838816!2d-118.1207755!4m5!1s0x80dd31db1fa57aad%3A0xc8ff9bfd14922f0a!2sCSULB+University+Student+Union%2C+1250+N+Bellflower+Blvd%2C+Long+Beach%2C+CA+90840!3m2!1d33.781376699999996!2d-118.1134665!5e0!3m2!1sen!2sus!4v1555382456001!5m2!1sen!2sus"
@@ -388,6 +388,14 @@ export default class Live extends Component {
                     frameborder="0"
                     allowfullscreen
                   />
+                  {/* <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d3316.1483715824625!2d-118.11888778530817!3d33.78266648933645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x80dd31dba16bd141%3A0x5c31edfc7cf57e07!2sG2%2C+Long+Beach%2C+CA!3m2!1d33.7838816!2d-118.1207755!4m5!1s0x80dd31db1fa57aad%3A0xc8ff9bfd14922f0a!2sCSULB+University+Student+Union%2C+1250+N+Bellflower+Blvd%2C+Long+Beach%2C+CA+90840!3m2!1d33.781376699999996!2d-118.1134665!5e0!3m2!1sen!2sus!4v1555615793963!5m2!1sen!2sus"
+                    style={{ width: "50%" }}
+                    height="400"
+                    frameborder="0"
+                    style="border:0"
+                    allowfullscreen
+                  /> */}
                 </ListGroupItem>
               </Col>
             </Row>

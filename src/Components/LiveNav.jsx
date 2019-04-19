@@ -30,7 +30,7 @@ class LiveNav extends Component {
               </NavItem>
               <NavItem className="item" eventKey={0}>
                 <AnchorLink offset="125" href="#parking-info">
-                  <p>INFO</p>
+                  <p>PARKING</p>
                 </AnchorLink>
               </NavItem>
               <NavItem className="item" eventKey={2} href="/discord">

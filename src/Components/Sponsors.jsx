@@ -35,6 +35,8 @@ import CSULBEsports from "../Images/Sponsors/csulbesports.png";
 import Balsamiq from "../Images/Sponsors/balsamiq.png";
 import Sketch from "../Images/Sponsors/sketch.png";
 import GoogleCloud from "../Images/Sponsors/googlecloudplatform.png";
+import SweetSaucy from "../Images/Sponsors/sweetsaucy.png";
+import LongBeachCreamery from "../Images/Sponsors/lbcreamery.png";
 
 export default class Sponsors extends Component {
   render() {
@@ -49,7 +51,7 @@ export default class Sponsors extends Component {
             </a>
           </p>
           <Row>
-          <Col xs={12} md={4}>
+            <Col xs={12} md={4}>
               <Sponsor>
                 <a
                   href="http://www.northropgrumman.com/Pages/default.aspx"
@@ -70,11 +72,15 @@ export default class Sponsors extends Component {
                 </a>
               </Sponsor>
             </Col>
-            
+
             <Col xs={12} md={4}>
               <Sponsor>
                 <a href="https://cloud.google.com/" target="_blank">
-                  <img className="sponsor" src={GoogleCloud} alt="google cloud platform"/>
+                  <img
+                    className="sponsor"
+                    src={GoogleCloud}
+                    alt="google cloud platform"
+                  />
                 </a>
               </Sponsor>
             </Col>
@@ -165,7 +171,7 @@ export default class Sponsors extends Component {
             <Col xs={12} md={4}>
               <Sponsor>
                 <a href="https://balsamiq.cloud/" target="_blank">
-                  <img className="sponsor" src={Balsamiq} alt="balsamiq"/>
+                  <img className="sponsor" src={Balsamiq} alt="balsamiq" />
                 </a>
               </Sponsor>
             </Col>
@@ -232,34 +238,56 @@ export default class Sponsors extends Component {
             </Col>
           </Row>
           <Row>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={4}>
               <Sponsor>
                 <a href="https://www.sujajuice.com/" target="_blank">
                   <img className="sponsor" src={Suja} alt="suja" />
                 </a>
               </Sponsor>
             </Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={4}>
               <Sponsor>
                 <a href="https://www.bingbeverage.com/" target="_blank">
                   <img className="sponsor" src={Bing} alt="bing" />
                 </a>
               </Sponsor>
             </Col>
-            <Col xs={12} md={6} target="_blank">
-              <Sponsor>
-                <a href="http://sweetjillsbakery.com/" target="_blank">
-                  <img className="sponsor" src={SweetJills} alt="sweet jills" />
-                </a>
-              </Sponsor>
-            </Col>
-            <Col xs={12} md={6} target="_blank">
+            <Col xs={12} md={4} target="_blank">
               <Sponsor>
                 <a href="https://www.tastenirvana.com/" target="_blank">
                   <img
                     className="sponsor"
                     src={TasteNirvana}
                     alt="taste nirvana"
+                  />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="http://sweetjillsbakery.com/" target="_blank">
+                  <img className="sponsor" src={SweetJills} alt="sweet jills" />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4} target="_blank">
+              <Sponsor>
+                <a href="https://longbeachcreamery.com/" target="_blank">
+                  <img
+                    className="sponsor"
+                    src={LongBeachCreamery}
+                    alt="long beach creamery"
+                  />
+                </a>
+              </Sponsor>
+            </Col>
+            <Col xs={12} md={4}>
+              <Sponsor>
+                <a href="http://sweetandsaucyshop.com/" target="_blank">
+                  <img
+                    className="sponsor"
+                    src={SweetSaucy}
+                    alt="sweet and saucy"
                   />
                 </a>
               </Sponsor>
