@@ -119,7 +119,7 @@ export default class Live extends Component {
           <h1 className="schedule-header">SCHEDULE</h1>
           <Grid style={{ marginTop: "25px" }}>
             <Row>
-              <Col xs={12} md={6}>
+              <Col xs={12}>
                 <Col xs={12} style={{ marginBottom: "20px" }}>
                   <button
                     className="date-button"
@@ -149,7 +149,7 @@ export default class Live extends Component {
                   </button>
                 </Col>
               </Col>
-              <Col xs={12} md={6}>
+              <Col xs={12} style={{marginTop:"20px"}}>
                 <Row>
                   <Col xs={6} className="container">
                     <div

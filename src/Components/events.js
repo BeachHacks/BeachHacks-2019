@@ -70,10 +70,10 @@ export const SatEvents = [
   },
   {
     start: new Date(2019, 4, 20, 19, 30, 0),
-    end: new Date(2019, 4, 20, 20, 0, 0),
+    end: new Date(2019, 4, 20, 20, 30, 0),
     title: "MLH Cup Stacking",
     color: "#9c63b4",
-    size:"small",
+    size: "small",
     width: "50%"
   },
   {
@@ -83,8 +83,8 @@ export const SatEvents = [
     color: "#0e5b8d"
   },
   {
-    start: new Date(2019, 4, 20, 20, 0, 0),
-    end: new Date(2019, 4, 20, 21, 50, 0),
+    start: new Date(2019, 4, 20, 20, 30, 0),
+    end: new Date(2019, 4, 20, 22, 30, 0),
     title:
       "Intro to Version Control with Github and SourceTree presented by VGDA",
     color: "#0e5b8d",
@@ -97,11 +97,11 @@ export const SatEvents = [
     color: "#0e5b8d"
   },
   {
-    start: new Date(2019, 4, 20, 22, 30, 0),
+    start: new Date(2019, 4, 20, 23, 0, 0),
     end: new Date(2019, 4, 20, 23, 30, 0),
     title: "Beach Dodge Ball Tournament",
     color: "#9c63b4"
-  },
+  }
 ];
 
 export const SunEvents = [
@@ -144,9 +144,15 @@ export const SunEvents = [
     color: "#84c3ab"
   },
   {
+    start: new Date(2019, 4, 20, 10, 30, 0),
+    end: new Date(2019, 4, 20, 11, 0, 0),
+    title: "Women in Tech Mixer",
+    color: "#9c63b4"
+  },
+  {
     start: new Date(2019, 4, 20, 11, 0, 0),
-    end: new Date(2019, 4, 20, 11, 50, 0),
-    title: "How to Demo Workshop",
+    end: new Date(2019, 4, 20, 11, 30, 0),
+    title: "How to Demo Crash Course",
     color: "#0e5b8d"
   },
   {
@@ -166,8 +172,7 @@ export const SunEvents = [
     start: new Date(2019, 4, 20, 15, 0, 0),
     end: new Date(2019, 4, 20, 15, 15, 0),
     title: "Hacking Ends",
-    color: "#6a9fc0",
-
+    color: "#6a9fc0"
   },
   {
     start: new Date(2019, 4, 20, 15, 15, 0),
