@@ -1,24 +1,23 @@
-
 export const SatEvents = [
   {
-    start: new Date(2019, 4,20,12,0,0),
-    end: new Date(2019,4,20,12,30,0),
-    title:"RSVP Pre-Check In", 
+    start: new Date(2019, 4, 20, 12, 0, 0),
+    end: new Date(2019, 4, 20, 12, 30, 0),
+    title: "RSVP Pre-Check In",
     color: "#6a9fc0",
-    size:"small"
+    size: "small"
   },
   {
-    start: new Date(2019, 4,20,12,30,0),
-    end: new Date(2019, 4,20,13,30,0),
-    title:"RSVP Check In",
-    color:"#6a9fc0"
+    start: new Date(2019, 4, 20, 12, 30, 0),
+    end: new Date(2019, 4, 20, 13, 30, 0),
+    title: "RSVP Check In",
+    color: "#6a9fc0"
   },
   {
-    start: new Date(2019, 4,20,13,30,0),
-    end: new Date(2019, 4,20,14,0,0),
-    title:"Walk-In Check In",
-    color:"#6a9fc0",
-    size:"small"
+    start: new Date(2019, 4, 20, 13, 30, 0),
+    end: new Date(2019, 4, 20, 14, 0, 0),
+    title: "Walk-In Check In",
+    color: "#6a9fc0",
+    size: "small"
   },
 
   {
@@ -46,7 +45,14 @@ export const SatEvents = [
     color: "#0e5b8d",
     width: "50%",
     left: "0%"
-
+  },
+  {
+    start: new Date(2019, 4, 20, 18, 0, 0),
+    end: new Date(2019, 4, 20, 18, 50, 0),
+    title: "Machine Learning Workshop",
+    color: "#0e5b8d",
+    width: "50%",
+    left: "0%"
   },
   {
     start: new Date(2019, 4, 20, 17, 0, 0),
@@ -58,11 +64,18 @@ export const SatEvents = [
   },
   {
     start: new Date(2019, 4, 20, 19, 0, 0),
-    end: new Date(2019, 4, 20, 20,0, 0),
+    end: new Date(2019, 4, 20, 20, 0, 0),
     title: "Dinner",
     color: "#84c3ab"
   },
-
+  {
+    start: new Date(2019, 4, 20, 19, 30, 0),
+    end: new Date(2019, 4, 20, 20, 0, 0),
+    title: "MLH Cup Stacking",
+    color: "#9c63b4",
+    size:"small",
+    width: "50%"
+  },
   {
     start: new Date(2019, 4, 20, 20, 0, 0),
     end: new Date(2019, 4, 20, 20, 50, 0),
@@ -72,7 +85,8 @@ export const SatEvents = [
   {
     start: new Date(2019, 4, 20, 20, 0, 0),
     end: new Date(2019, 4, 20, 21, 50, 0),
-    title: "Intro to Version Control with Github and SourceTree presented by VGDA",
+    title:
+      "Intro to Version Control with Github and SourceTree presented by VGDA",
     color: "#0e5b8d",
     width: "50%"
   },
@@ -84,13 +98,11 @@ export const SatEvents = [
   },
   {
     start: new Date(2019, 4, 20, 22, 30, 0),
-    end: new Date(2019, 4, 20, 23, 0, 0),
-    title: "MLH Cupstacking Event",
-    color: "#9c63b4",
-    size:"small"
+    end: new Date(2019, 4, 20, 23, 30, 0),
+    title: "Beach Dodge Ball Tournament",
+    color: "#9c63b4"
   },
-
-]
+];
 
 export const SunEvents = [
   {
@@ -101,16 +113,10 @@ export const SunEvents = [
   },
   {
     start: new Date(2019, 4, 20, 3, 0, 0),
-    end: new Date(2019, 4, 20, 4, 0, 0),
-    title: "Beach Dodge Ball Tournament",
-    color: "#9c63b4"
-  },
-  {
-    start: new Date(2019, 4, 20, 4, 0, 0),
-    end: new Date(2019, 4, 20, 4, 30, 0),
+    end: new Date(2019, 4, 20, 3, 30, 0),
     title: "Food for Thought Snack",
     color: "#84c3ab",
-    size:"small"
+    size: "small"
   },
   {
     start: new Date(2019, 4, 20, 5, 0, 0),
@@ -123,7 +129,7 @@ export const SunEvents = [
     end: new Date(2019, 4, 20, 6, 30, 0),
     title: "Food for Thought Snack",
     color: "#84c3ab",
-    size:"small"
+    size: "small"
   },
   {
     start: new Date(2019, 4, 20, 7, 0, 0),
@@ -154,21 +160,20 @@ export const SunEvents = [
     end: new Date(2019, 4, 20, 14, 0, 0),
     title: "Devpost Submissions Due",
     color: "#6a9fc0",
-    size:"small"
+    size: "small"
   },
   {
     start: new Date(2019, 4, 20, 15, 0, 0),
     end: new Date(2019, 4, 20, 15, 15, 0),
     title: "Hacking Ends",
     color: "#6a9fc0",
-    size:"small"
+
   },
   {
     start: new Date(2019, 4, 20, 15, 15, 0),
     end: new Date(2019, 4, 20, 15, 30, 0),
     title: "Demo Schedule Annoucement",
-    color: "#6a9fc0",
-    size:"small"
+    color: "#6a9fc0"
   },
   {
     start: new Date(2019, 4, 20, 15, 30, 0),
@@ -181,6 +186,5 @@ export const SunEvents = [
     end: new Date(2019, 4, 20, 18, 0, 0),
     title: "Closing Ceremony",
     color: "#6a9fc0"
-  },
-  
-]
+  }
+];

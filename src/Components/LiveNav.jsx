@@ -34,7 +34,7 @@ class LiveNav extends Component {
                 </AnchorLink>
               </NavItem>
               <NavItem className="item" eventKey={2} href="/discord">
-                  <p>DISCORD</p>
+                <p>DISCORD</p>
               </NavItem>
             </Nav>
           </Navbar.Collapse>
