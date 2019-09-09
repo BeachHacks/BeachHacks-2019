@@ -20,9 +20,10 @@ class Header extends Component {
             <br/>
             
             <Register>
-              <a href="/live">
-                <button className="apply-button">WE ARE LIVE</button>
-              </a>
+              {/* <a href="/live"> */}
+                {/* <button className="apply-button">WE ARE LIVE</button> */}
+                <button className="apply-button">See you next year!</button>
+              {/* </a> */}
             </Register>
             <br/>
           </div>
@@ -38,7 +39,7 @@ class Header extends Component {
         {/* <Register>
           <button className="apply-button">REGISTER</button>
         </Register>
-        <button className="apply-button">DARK MODE</button> */}
+        <button className="apply-button">DARK MODE</button>*/}
       </div>
     );
   }

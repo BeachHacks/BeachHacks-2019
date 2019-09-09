@@ -34,13 +34,13 @@ class Navigation extends Component {
                   <p>SPONSORS</p>
                 </AnchorLink>
               </NavItem>
-              <NavItem
+              {/* <NavItem
                 className="item-live"
                 eventKey={3}
                 href="/live"
               >
                 LIVE
-              </NavItem>
+              </NavItem> */}
             </Nav>
           </Navbar.Collapse>
         </Navbar>
